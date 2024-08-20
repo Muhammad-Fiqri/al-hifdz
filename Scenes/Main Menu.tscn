@@ -1,0 +1,103 @@
+[gd_scene load_steps=8 format=3 uid="uid://bres1h3ca8r5"]
+
+[ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_1pr6o"]
+[ext_resource type="Texture2D" uid="uid://bag7b78no2dun" path="res://Assets/book stacked.png" id="2_v4a7j"]
+[ext_resource type="FontFile" uid="uid://7gbrujg2x3pq" path="res://Assets/fonts/MinecraftBold-nMK1.otf" id="3_2b0s2"]
+[ext_resource type="Script" path="res://Script/book_btn.gd" id="3_6i1r3"]
+[ext_resource type="Texture2D" uid="uid://d2j3u3ff35ypi" path="res://Assets/Book Opened.png" id="4_rvc5e"]
+[ext_resource type="Script" path="res://Script/exit_btn.gd" id="6_554w2"]
+[ext_resource type="Script" path="res://Script/adventure_btn.gd" id="6_cn0i8"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_1pr6o")
+
+[node name="BookBtn" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 59.0
+offset_top = 18.0
+offset_right = 379.0
+offset_bottom = 338.0
+texture_normal = ExtResource("2_v4a7j")
+script = ExtResource("3_6i1r3")
+
+[node name="Label" type="Label" parent="BookBtn"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 158.0
+offset_right = 284.0
+offset_bottom = 209.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("3_2b0s2")
+theme_override_font_sizes/font_size = 37
+text = "Learn Abjad"
+horizontal_alignment = 1
+
+[node name="PointLight2D" type="PointLight2D" parent="BookBtn"]
+visible = false
+texture_filter = 1
+color = Color(1, 0.983333, 0, 1)
+texture = ExtResource("2_v4a7j")
+offset = Vector2(160, 160)
+
+[node name="AdventureBtn" type="TextureButton" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 755.0
+offset_top = 215.0
+offset_right = 1075.0
+offset_bottom = 535.0
+texture_normal = ExtResource("4_rvc5e")
+stretch_mode = 4
+script = ExtResource("6_cn0i8")
+
+[node name="Label" type="Label" parent="AdventureBtn"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 124.0
+offset_right = 331.0
+offset_bottom = 175.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("3_2b0s2")
+theme_override_font_sizes/font_size = 37
+text = "Adventure"
+horizontal_alignment = 1
+
+[node name="PointLight2D" type="PointLight2D" parent="AdventureBtn"]
+visible = false
+texture_filter = 1
+position = Vector2(160, 162)
+texture = ExtResource("4_rvc5e")
+texture_scale = 5.0
+
+[node name="ExitBtn" type="Button" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 545.0
+offset_right = 705.0
+offset_bottom = 629.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_2b0s2")
+theme_override_font_sizes/font_size = 50
+text = "Exit"
+script = ExtResource("6_554w2")
+
+[connection signal="button_down" from="BookBtn" to="BookBtn" method="_on_button_down"]
+[connection signal="mouse_entered" from="BookBtn" to="BookBtn" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="BookBtn" to="BookBtn" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="AdventureBtn" to="AdventureBtn" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="AdventureBtn" to="AdventureBtn" method="_on_mouse_exited"]
+[connection signal="button_down" from="ExitBtn" to="ExitBtn" method="_on_button_down"]

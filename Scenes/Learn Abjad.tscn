@@ -1,0 +1,1477 @@
+[gd_scene load_steps=36 format=3 uid="uid://kulv0083q8ha"]
+
+[ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_7p1o1"]
+[ext_resource type="Texture2D" uid="uid://d38s7hncckrw8" path="res://Assets/book page.png" id="2_b7awg"]
+[ext_resource type="Texture2D" uid="uid://ddto8g2e7y463" path="res://Assets/alif.png" id="3_eg3g7"]
+[ext_resource type="Script" path="res://Script/book_page.gd" id="3_l2grn"]
+[ext_resource type="FontFile" uid="uid://o2ilkpqd1i0f" path="res://Assets/fonts/MinecraftRegular-Bmg3.otf" id="4_gepxu"]
+[ext_resource type="Script" path="res://Script/home_btn.gd" id="5_k6an3"]
+[ext_resource type="Texture2D" uid="uid://cfvxpwhe11ajh" path="res://Assets/alang-alang.png" id="6_tkmac"]
+[ext_resource type="Texture2D" uid="uid://bfp5fhm6ow01h" path="res://Assets/ba.png" id="7_51gx2"]
+[ext_resource type="Texture2D" uid="uid://chu27vmjdrhaj" path="res://Assets/ta.png" id="8_dffy1"]
+[ext_resource type="Texture2D" uid="uid://q8q7pajvobf7" path="res://Assets/tsa.png" id="9_jq8qs"]
+[ext_resource type="Texture2D" uid="uid://c63pg54r1lwtu" path="res://Assets/jim.png" id="10_7m7ly"]
+[ext_resource type="Texture2D" uid="uid://bt2pxvjgs8cf8" path="res://Assets/ha.png" id="11_w5ntn"]
+[ext_resource type="Texture2D" uid="uid://7eyfn0oqybn1" path="res://Assets/kho'.png" id="12_31j8x"]
+[ext_resource type="Texture2D" uid="uid://cybo2gr87d8gh" path="res://Assets/dal.png" id="13_65h6s"]
+[ext_resource type="Texture2D" uid="uid://cetx0trjhnlai" path="res://Assets/dzal.png" id="14_ye2p3"]
+[ext_resource type="Texture2D" uid="uid://oxbyrqmipnwb" path="res://Assets/ro'.png" id="15_b4b6a"]
+[ext_resource type="Texture2D" uid="uid://b1ux8v4sa8rpy" path="res://Assets/zay.png" id="16_mxkhr"]
+[ext_resource type="Texture2D" uid="uid://cr3t8r0qe51dt" path="res://Assets/sin.png" id="17_vi3hx"]
+[ext_resource type="Texture2D" uid="uid://d0ilbd361ekol" path="res://Assets/syin.png" id="18_essjm"]
+[ext_resource type="Texture2D" uid="uid://bn2pomurh13ok" path="res://Assets/shod.png" id="19_33phu"]
+[ext_resource type="Texture2D" uid="uid://b0jp0dml72hhk" path="res://Assets/dhod.png" id="20_aii70"]
+[ext_resource type="Texture2D" uid="uid://dh5vb43wkjwy1" path="res://Assets/tho'.png" id="21_2f32h"]
+[ext_resource type="Texture2D" uid="uid://b5ao7h8dcimv5" path="res://Assets/zho'.png" id="22_pvjlo"]
+[ext_resource type="Texture2D" uid="uid://bh58p4gq23c8x" path="res://Assets/ain.png" id="23_5r5iy"]
+[ext_resource type="Texture2D" uid="uid://ct6q4byw2cupk" path="res://Assets/ghain.png" id="24_b1bah"]
+[ext_resource type="Texture2D" uid="uid://c7n7fgs8bx0hd" path="res://Assets/fa'.png" id="25_ec3dn"]
+[ext_resource type="Texture2D" uid="uid://dknfvbocwp5sl" path="res://Assets/qof.png" id="26_xnm1g"]
+[ext_resource type="Texture2D" uid="uid://cugp3e67r3dyf" path="res://Assets/kaf.png" id="27_0enh8"]
+[ext_resource type="Texture2D" uid="uid://dd58bd46dc7da" path="res://Assets/lam.png" id="28_nggj0"]
+[ext_resource type="Texture2D" uid="uid://b65fgyfbfux5f" path="res://Assets/mim.png" id="29_px8j3"]
+[ext_resource type="Texture2D" uid="uid://dypy1a8ge7253" path="res://Assets/nun.png" id="30_jwxgj"]
+[ext_resource type="Texture2D" uid="uid://caxqcpnkfqouy" path="res://Assets/waw.png" id="31_hwvtv"]
+[ext_resource type="Texture2D" uid="uid://j8cw0r7ttjh2" path="res://Assets/ha'.png" id="32_2xv3i"]
+[ext_resource type="Texture2D" uid="uid://ne8qcu1insw4" path="res://Assets/ya.png" id="33_u32nc"]
+
+[sub_resource type="Theme" id="Theme_vjdpq"]
+default_font = ExtResource("4_gepxu")
+default_font_size = 50
+
+[node name="Book" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+scale = Vector2(1.44, 1.44643)
+texture = ExtResource("1_7p1o1")
+centered = false
+
+[node name="BookPage" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(140, 107)
+scale = Vector2(13.8125, 15.375)
+texture = ExtResource("2_b7awg")
+centered = false
+script = ExtResource("3_l2grn")
+
+[node name="Alif Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Alif Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Alif Node/Alif"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Alif"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Alif Node"]
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Alif Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Alif Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Ba\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Ba\'" type="Sprite2D" parent="BookPage/Ba\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("7_51gx2")
+
+[node name="Description" type="Label" parent="BookPage/Ba\' Node/Ba\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Ba'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ba\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Ba\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Ba\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Ta\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Ta\'" type="Sprite2D" parent="BookPage/Ta\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("8_dffy1")
+
+[node name="Description" type="Label" parent="BookPage/Ta\' Node/Ta\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Ta'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ta\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Ta\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Ta\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Tsa\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Tsa\'" type="Sprite2D" parent="BookPage/Tsa\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("9_jq8qs")
+
+[node name="Description" type="Label" parent="BookPage/Tsa\' Node/Tsa\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Tsa'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Tsa\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Tsa\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Tsa\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Jim Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Jim" type="Sprite2D" parent="BookPage/Jim Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("10_7m7ly")
+
+[node name="Description" type="Label" parent="BookPage/Jim Node/Jim"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "jim"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Jim Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Jim Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Jim Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Ha\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Ha\'" type="Sprite2D" parent="BookPage/Ha\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("11_w5ntn")
+
+[node name="Description" type="Label" parent="BookPage/Ha\' Node/Ha\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Ha'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ha\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Ha\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Ha\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Kho\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Kho\'" type="Sprite2D" parent="BookPage/Kho\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("12_31j8x")
+
+[node name="Description" type="Label" parent="BookPage/Kho\' Node/Kho\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Kho'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Kho\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Kho\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Kho\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Dal Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Dal" type="Sprite2D" parent="BookPage/Dal Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("13_65h6s")
+
+[node name="Description" type="Label" parent="BookPage/Dal Node/Dal"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Dal
+"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Dal Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Dal Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Dal Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Dzal Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Dzal" type="Sprite2D" parent="BookPage/Dzal Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("14_ye2p3")
+
+[node name="Description" type="Label" parent="BookPage/Dzal Node/Dzal"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Dzal"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Dzal Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Dzal Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Dzal Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Ro\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Ro\'" type="Sprite2D" parent="BookPage/Ro\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("15_b4b6a")
+
+[node name="Description" type="Label" parent="BookPage/Ro\' Node/Ro\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Ro'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ro\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Ro\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Ro\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Zay Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Zay" type="Sprite2D" parent="BookPage/Zay Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("16_mxkhr")
+
+[node name="Description" type="Label" parent="BookPage/Zay Node/Zay"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Zay"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Zay Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Zay Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Zay Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Sin Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Sin" type="Sprite2D" parent="BookPage/Sin Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("17_vi3hx")
+
+[node name="Description" type="Label" parent="BookPage/Sin Node/Sin"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Sin"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Sin Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Sin Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Sin Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Syin Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Syin" type="Sprite2D" parent="BookPage/Syin Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("18_essjm")
+
+[node name="Description" type="Label" parent="BookPage/Syin Node/Syin"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Syin"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Syin Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Syin Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Syin Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Shod Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Shod" type="Sprite2D" parent="BookPage/Shod Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("19_33phu")
+
+[node name="Description" type="Label" parent="BookPage/Shod Node/Shod"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Shod"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Shod Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Shod Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Shod Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Dhod Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Dhod" type="Sprite2D" parent="BookPage/Dhod Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("20_aii70")
+
+[node name="Description" type="Label" parent="BookPage/Dhod Node/Dhod"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Dhod"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Dhod Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Dhod Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Dhod Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Tho\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Tho\'" type="Sprite2D" parent="BookPage/Tho\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("21_2f32h")
+
+[node name="Description" type="Label" parent="BookPage/Tho\' Node/Tho\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Tho'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Tho\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Tho\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Tho\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Zho\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Zho\'" type="Sprite2D" parent="BookPage/Zho\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("22_pvjlo")
+
+[node name="Description" type="Label" parent="BookPage/Zho\' Node/Zho\'"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Zho'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Zho\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Zho\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Zho\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="\'Ain Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="\'Ain" type="Sprite2D" parent="BookPage/\'Ain Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("23_5r5iy")
+
+[node name="Description" type="Label" parent="BookPage/\'Ain Node/\'Ain"]
+offset_left = -50.6154
+offset_top = 180.923
+offset_right = 51.3846
+offset_bottom = 245.923
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "'Ain"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/\'Ain Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/\'Ain Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/\'Ain Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Ghain Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Ghain" type="Sprite2D" parent="BookPage/Ghain Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("24_b1bah")
+
+[node name="Description" type="Label" parent="BookPage/Ghain Node/Ghain"]
+offset_left = -79.077
+offset_top = 217.897
+offset_right = 86.923
+offset_bottom = 282.897
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Ghain"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ghain Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Ghain Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Ghain Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Fa\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Fa\'" type="Sprite2D" parent="BookPage/Fa\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("25_ec3dn")
+
+[node name="Description" type="Label" parent="BookPage/Fa\' Node/Fa\'"]
+offset_left = -62.4103
+offset_top = 184.564
+offset_right = 103.59
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Fa'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Fa\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Fa\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Fa\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Qof Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Qof" type="Sprite2D" parent="BookPage/Qof Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("26_xnm1g")
+
+[node name="Description" type="Label" parent="BookPage/Qof Node/Qof"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Qof"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Qof Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Qof Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Qof Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Kaf Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Kaf" type="Sprite2D" parent="BookPage/Kaf Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("27_0enh8")
+
+[node name="Description" type="Label" parent="BookPage/Kaf Node/Kaf"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Kaf"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Kaf Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Kaf Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Kaf Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Lam Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Lam" type="Sprite2D" parent="BookPage/Lam Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("28_nggj0")
+
+[node name="Description" type="Label" parent="BookPage/Lam Node/Lam"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Lam"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Lam Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Lam Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Lam Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Mim Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Mim" type="Sprite2D" parent="BookPage/Mim Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("29_px8j3")
+
+[node name="Description" type="Label" parent="BookPage/Mim Node/Mim"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Mim"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Mim Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Mim Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Mim Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Nun Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Nun" type="Sprite2D" parent="BookPage/Nun Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("30_jwxgj")
+
+[node name="Description" type="Label" parent="BookPage/Nun Node/Nun"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Nun"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Nun Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Nun Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Nun Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Waw Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Waw" type="Sprite2D" parent="BookPage/Waw Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("31_hwvtv")
+
+[node name="Description" type="Label" parent="BookPage/Waw Node/Waw"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Waw"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Waw Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Waw Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Waw Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Haa\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Haa\'" type="Sprite2D" parent="BookPage/Haa\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("32_2xv3i")
+
+[node name="Description" type="Label" parent="BookPage/Haa\' Node/Haa\'"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Haa'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Haa\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Haa\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Haa\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="Ya\' Node" type="Node2D" parent="BookPage"]
+visible = false
+position = Vector2(-5.14027, -5.13819)
+scale = Vector2(0.0608145, 0.054634)
+
+[node name="Ya\'" type="Sprite2D" parent="BookPage/Ya\' Node"]
+position = Vector2(327, 306)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("33_u32nc")
+
+[node name="Description" type="Label" parent="BookPage/Ya\' Node/Ya\'"]
+offset_left = -71.3847
+offset_top = 184.564
+offset_right = 94.6153
+offset_bottom = 249.564
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 64
+text = "Ya'"
+horizontal_alignment = 1
+
+[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ya\' Node"]
+visible = false
+texture_filter = 1
+position = Vector2(866.667, 403.571)
+scale = Vector2(0.140613, 0.140613)
+texture = ExtResource("6_tkmac")
+flip_h = true
+
+[node name="Alif" type="Sprite2D" parent="BookPage/Ya\' Node/Alang-alang"]
+modulate = Color(1, 1, 1, 0.458824)
+position = Vector2(260.048, 265.249)
+rotation = -0.283098
+scale = Vector2(4.50514, 4.78492)
+texture = ExtResource("3_eg3g7")
+
+[node name="Description" type="Label" parent="BookPage/Ya\' Node/Alang-alang"]
+offset_left = -1301.44
+offset_top = -1685.47
+offset_right = 1598.56
+offset_bottom = -1185.47
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 92
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 500
+text = "Alang Alang"
+horizontal_alignment = 1
+
+[node name="HomeBtn" type="Button" parent="."]
+offset_left = 15.0
+offset_top = 16.0
+offset_right = 158.0
+offset_bottom = 80.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 50
+text = "Home"
+script = ExtResource("5_k6an3")
+
+[node name="NextBtn" type="Button" parent="."]
+offset_left = 1029.0
+offset_top = 311.0
+offset_right = 1147.0
+offset_bottom = 369.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 50
+text = "Next"
+
+[node name="Previous" type="Button" parent="."]
+offset_left = 7.0
+offset_top = 303.0
+offset_right = 135.0
+offset_bottom = 361.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 50
+text = "Prev"
+
+[node name="PageNum" type="SpinBox" parent="."]
+offset_left = 998.0
+offset_top = 12.0
+offset_right = 1142.0
+offset_bottom = 70.0
+theme = SubResource("Theme_vjdpq")
+min_value = 1.0
+max_value = 28.0
+value = 1.0
+rounded = true
+
+[connection signal="button_down" from="HomeBtn" to="HomeBtn" method="_on_button_down"]
+[connection signal="button_down" from="NextBtn" to="BookPage" method="_on_next_btn_button_down"]
+[connection signal="button_down" from="Previous" to="BookPage" method="_on_previous_button_down"]
+[connection signal="value_changed" from="PageNum" to="BookPage" method="_on_page_num_value_changed"]
