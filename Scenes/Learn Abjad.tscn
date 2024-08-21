@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://kulv0083q8ha"]
+[gd_scene load_steps=41 format=3 uid="uid://kulv0083q8ha"]
 
 [ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_7p1o1"]
 [ext_resource type="Texture2D" uid="uid://d38s7hncckrw8" path="res://Assets/book page.png" id="2_b7awg"]
@@ -11,12 +11,14 @@
 [ext_resource type="Texture2D" uid="uid://chu27vmjdrhaj" path="res://Assets/ta.png" id="8_dffy1"]
 [ext_resource type="Texture2D" uid="uid://q8q7pajvobf7" path="res://Assets/tsa.png" id="9_jq8qs"]
 [ext_resource type="Texture2D" uid="uid://c63pg54r1lwtu" path="res://Assets/jim.png" id="10_7m7ly"]
+[ext_resource type="Script" path="res://Script/quiz_1_node.gd" id="11_akc57"]
 [ext_resource type="Texture2D" uid="uid://bt2pxvjgs8cf8" path="res://Assets/ha.png" id="11_w5ntn"]
 [ext_resource type="Texture2D" uid="uid://7eyfn0oqybn1" path="res://Assets/kho'.png" id="12_31j8x"]
 [ext_resource type="Texture2D" uid="uid://cybo2gr87d8gh" path="res://Assets/dal.png" id="13_65h6s"]
 [ext_resource type="Texture2D" uid="uid://cetx0trjhnlai" path="res://Assets/dzal.png" id="14_ye2p3"]
 [ext_resource type="Texture2D" uid="uid://oxbyrqmipnwb" path="res://Assets/ro'.png" id="15_b4b6a"]
 [ext_resource type="Texture2D" uid="uid://b1ux8v4sa8rpy" path="res://Assets/zay.png" id="16_mxkhr"]
+[ext_resource type="Script" path="res://Script/quiz_2_node.gd" id="17_dsssu"]
 [ext_resource type="Texture2D" uid="uid://cr3t8r0qe51dt" path="res://Assets/sin.png" id="17_vi3hx"]
 [ext_resource type="Texture2D" uid="uid://d0ilbd361ekol" path="res://Assets/syin.png" id="18_essjm"]
 [ext_resource type="Texture2D" uid="uid://bn2pomurh13ok" path="res://Assets/shod.png" id="19_33phu"]
@@ -24,16 +26,19 @@
 [ext_resource type="Texture2D" uid="uid://dh5vb43wkjwy1" path="res://Assets/tho'.png" id="21_2f32h"]
 [ext_resource type="Texture2D" uid="uid://b5ao7h8dcimv5" path="res://Assets/zho'.png" id="22_pvjlo"]
 [ext_resource type="Texture2D" uid="uid://bh58p4gq23c8x" path="res://Assets/ain.png" id="23_5r5iy"]
+[ext_resource type="Script" path="res://Script/quiz_3_node.gd" id="23_pnr2s"]
 [ext_resource type="Texture2D" uid="uid://ct6q4byw2cupk" path="res://Assets/ghain.png" id="24_b1bah"]
 [ext_resource type="Texture2D" uid="uid://c7n7fgs8bx0hd" path="res://Assets/fa'.png" id="25_ec3dn"]
 [ext_resource type="Texture2D" uid="uid://dknfvbocwp5sl" path="res://Assets/qof.png" id="26_xnm1g"]
 [ext_resource type="Texture2D" uid="uid://cugp3e67r3dyf" path="res://Assets/kaf.png" id="27_0enh8"]
 [ext_resource type="Texture2D" uid="uid://dd58bd46dc7da" path="res://Assets/lam.png" id="28_nggj0"]
+[ext_resource type="Script" path="res://Script/quiz_4_node.gd" id="29_k40ob"]
 [ext_resource type="Texture2D" uid="uid://b65fgyfbfux5f" path="res://Assets/mim.png" id="29_px8j3"]
 [ext_resource type="Texture2D" uid="uid://dypy1a8ge7253" path="res://Assets/nun.png" id="30_jwxgj"]
 [ext_resource type="Texture2D" uid="uid://caxqcpnkfqouy" path="res://Assets/waw.png" id="31_hwvtv"]
 [ext_resource type="Texture2D" uid="uid://j8cw0r7ttjh2" path="res://Assets/ha'.png" id="32_2xv3i"]
 [ext_resource type="Texture2D" uid="uid://ne8qcu1insw4" path="res://Assets/ya.png" id="33_u32nc"]
+[ext_resource type="Script" path="res://Script/quiz_5_node.gd" id="35_fviqr"]
 
 [sub_resource type="Theme" id="Theme_vjdpq"]
 default_font = ExtResource("4_gepxu")
@@ -60,6 +65,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Alif" type="Sprite2D" parent="BookPage/Alif Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("3_eg3g7")
@@ -107,12 +113,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Ba\'" type="Sprite2D" parent="BookPage/Ba\' Node"]
+[node name="Ba" type="Sprite2D" parent="BookPage/Ba\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("7_51gx2")
 
-[node name="Description" type="Label" parent="BookPage/Ba\' Node/Ba\'"]
+[node name="Description" type="Label" parent="BookPage/Ba\' Node/Ba"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -156,12 +163,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Ta\'" type="Sprite2D" parent="BookPage/Ta\' Node"]
+[node name="Ta" type="Sprite2D" parent="BookPage/Ta\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("8_dffy1")
 
-[node name="Description" type="Label" parent="BookPage/Ta\' Node/Ta\'"]
+[node name="Description" type="Label" parent="BookPage/Ta\' Node/Ta"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -205,12 +213,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Tsa\'" type="Sprite2D" parent="BookPage/Tsa\' Node"]
+[node name="Tsa" type="Sprite2D" parent="BookPage/Tsa\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("9_jq8qs")
 
-[node name="Description" type="Label" parent="BookPage/Tsa\' Node/Tsa\'"]
+[node name="Description" type="Label" parent="BookPage/Tsa\' Node/Tsa"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -255,6 +264,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Jim" type="Sprite2D" parent="BookPage/Jim Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("10_7m7ly")
@@ -298,17 +308,81 @@ theme_override_font_sizes/font_size = 500
 text = "Alang Alang"
 horizontal_alignment = 1
 
+[node name="Quiz1 Node" type="Node2D" parent="BookPage"]
+scale = Vector2(1, 1)
+script = ExtResource("11_akc57")
+
+[node name="Abjad" type="Sprite2D" parent="BookPage/Quiz1 Node"]
+position = Vector2(15.8552, 14.1789)
+scale = Vector2(-0.0801486, -0.0801487)
+flip_h = true
+flip_v = true
+
+[node name="Question" type="Label" parent="BookPage/Quiz1 Node"]
+texture_filter = 1
+offset_left = 35.6199
+offset_top = 5.13821
+offset_right = 246.62
+offset_bottom = 28.1382
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "What Abjad is this?"
+
+[node name="Answer" type="LineEdit" parent="BookPage/Quiz1 Node"]
+offset_left = 36.0
+offset_top = 9.0
+offset_right = 214.0
+offset_bottom = 37.0
+scale = Vector2(0.14, 0.14)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 20
+placeholder_text = "Answer"
+alignment = 1
+
+[node name="Correction" type="Label" parent="BookPage/Quiz1 Node"]
+texture_filter = 1
+offset_left = 42.0634
+offset_top = 16.7805
+offset_right = 134.063
+offset_bottom = 39.7805
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_color = Color(0.0833333, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "Correct!"
+horizontal_alignment = 1
+
+[node name="Submit" type="Button" parent="BookPage/Quiz1 Node"]
+offset_left = 40.543
+offset_top = 21.2033
+offset_right = 92.543
+offset_bottom = 39.2033
+scale = Vector2(0.253, 0.23)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 10
+text = "Submit"
+
 [node name="Ha\' Node" type="Node2D" parent="BookPage"]
 visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Ha\'" type="Sprite2D" parent="BookPage/Ha\' Node"]
+[node name="Ha" type="Sprite2D" parent="BookPage/Ha\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("11_w5ntn")
 
-[node name="Description" type="Label" parent="BookPage/Ha\' Node/Ha\'"]
+[node name="Description" type="Label" parent="BookPage/Ha\' Node/Ha"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -352,12 +426,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Kho\'" type="Sprite2D" parent="BookPage/Kho\' Node"]
+[node name="Kho" type="Sprite2D" parent="BookPage/Kho\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("12_31j8x")
 
-[node name="Description" type="Label" parent="BookPage/Kho\' Node/Kho\'"]
+[node name="Description" type="Label" parent="BookPage/Kho\' Node/Kho"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -402,6 +477,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Dal" type="Sprite2D" parent="BookPage/Dal Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("13_65h6s")
@@ -452,6 +528,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Dzal" type="Sprite2D" parent="BookPage/Dzal Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("14_ye2p3")
@@ -500,12 +577,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Ro\'" type="Sprite2D" parent="BookPage/Ro\' Node"]
+[node name="Ro" type="Sprite2D" parent="BookPage/Ro\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("15_b4b6a")
 
-[node name="Description" type="Label" parent="BookPage/Ro\' Node/Ro\'"]
+[node name="Description" type="Label" parent="BookPage/Ro\' Node/Ro"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -544,12 +622,77 @@ theme_override_font_sizes/font_size = 500
 text = "Alang Alang"
 horizontal_alignment = 1
 
+[node name="Quiz2 Node" type="Node2D" parent="BookPage"]
+visible = false
+scale = Vector2(1, 1)
+script = ExtResource("17_dsssu")
+
+[node name="Abjad" type="Sprite2D" parent="BookPage/Quiz2 Node"]
+position = Vector2(15.8552, 14.1789)
+scale = Vector2(-0.0801486, -0.0801487)
+flip_h = true
+flip_v = true
+
+[node name="Question" type="Label" parent="BookPage/Quiz2 Node"]
+texture_filter = 1
+offset_left = 35.6199
+offset_top = 5.13821
+offset_right = 246.62
+offset_bottom = 28.1382
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "What Abjad is this?"
+
+[node name="Answer" type="LineEdit" parent="BookPage/Quiz2 Node"]
+offset_left = 36.0
+offset_top = 9.0
+offset_right = 214.0
+offset_bottom = 37.0
+scale = Vector2(0.14, 0.14)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 20
+placeholder_text = "Answer"
+alignment = 1
+
+[node name="Correction" type="Label" parent="BookPage/Quiz2 Node"]
+texture_filter = 1
+offset_left = 42.0634
+offset_top = 16.7805
+offset_right = 134.063
+offset_bottom = 39.7805
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_color = Color(0.0833333, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "Correct!"
+horizontal_alignment = 1
+
+[node name="Submit" type="Button" parent="BookPage/Quiz2 Node"]
+offset_left = 40.543
+offset_top = 21.2033
+offset_right = 92.543
+offset_bottom = 39.2033
+scale = Vector2(0.253, 0.23)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 10
+text = "Submit"
+
 [node name="Zay Node" type="Node2D" parent="BookPage"]
 visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Zay" type="Sprite2D" parent="BookPage/Zay Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("16_mxkhr")
@@ -599,6 +742,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Sin" type="Sprite2D" parent="BookPage/Sin Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("17_vi3hx")
@@ -648,6 +792,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Syin" type="Sprite2D" parent="BookPage/Syin Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("18_essjm")
@@ -697,6 +842,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Shod" type="Sprite2D" parent="BookPage/Shod Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("19_33phu")
@@ -746,6 +892,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Dhod" type="Sprite2D" parent="BookPage/Dhod Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("20_aii70")
@@ -789,17 +936,82 @@ theme_override_font_sizes/font_size = 500
 text = "Alang Alang"
 horizontal_alignment = 1
 
+[node name="Quiz3 Node" type="Node2D" parent="BookPage"]
+visible = false
+scale = Vector2(1, 1)
+script = ExtResource("23_pnr2s")
+
+[node name="Abjad" type="Sprite2D" parent="BookPage/Quiz3 Node"]
+position = Vector2(15.8552, 14.1789)
+scale = Vector2(-0.0801486, -0.0801487)
+flip_h = true
+flip_v = true
+
+[node name="Question" type="Label" parent="BookPage/Quiz3 Node"]
+texture_filter = 1
+offset_left = 35.6199
+offset_top = 5.13821
+offset_right = 246.62
+offset_bottom = 28.1382
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "What Abjad is this?"
+
+[node name="Answer" type="LineEdit" parent="BookPage/Quiz3 Node"]
+offset_left = 36.0
+offset_top = 9.0
+offset_right = 214.0
+offset_bottom = 37.0
+scale = Vector2(0.14, 0.14)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 20
+placeholder_text = "Answer"
+alignment = 1
+
+[node name="Correction" type="Label" parent="BookPage/Quiz3 Node"]
+texture_filter = 1
+offset_left = 42.0634
+offset_top = 16.7805
+offset_right = 134.063
+offset_bottom = 39.7805
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_color = Color(0.0833333, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "Correct!"
+horizontal_alignment = 1
+
+[node name="Submit" type="Button" parent="BookPage/Quiz3 Node"]
+offset_left = 40.543
+offset_top = 21.2033
+offset_right = 92.543
+offset_bottom = 39.2033
+scale = Vector2(0.253, 0.23)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 10
+text = "Submit"
+
 [node name="Tho\' Node" type="Node2D" parent="BookPage"]
 visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Tho\'" type="Sprite2D" parent="BookPage/Tho\' Node"]
+[node name="Tho" type="Sprite2D" parent="BookPage/Tho\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("21_2f32h")
 
-[node name="Description" type="Label" parent="BookPage/Tho\' Node/Tho\'"]
+[node name="Description" type="Label" parent="BookPage/Tho\' Node/Tho"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -843,12 +1055,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Zho\'" type="Sprite2D" parent="BookPage/Zho\' Node"]
+[node name="Zho" type="Sprite2D" parent="BookPage/Zho\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("22_pvjlo")
 
-[node name="Description" type="Label" parent="BookPage/Zho\' Node/Zho\'"]
+[node name="Description" type="Label" parent="BookPage/Zho\' Node/Zho"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -892,12 +1105,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="\'Ain" type="Sprite2D" parent="BookPage/\'Ain Node"]
+[node name="Ain" type="Sprite2D" parent="BookPage/\'Ain Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("23_5r5iy")
 
-[node name="Description" type="Label" parent="BookPage/\'Ain Node/\'Ain"]
+[node name="Description" type="Label" parent="BookPage/\'Ain Node/Ain"]
 offset_left = -50.6154
 offset_top = 180.923
 offset_right = 51.3846
@@ -942,6 +1156,7 @@ position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
 [node name="Ghain" type="Sprite2D" parent="BookPage/Ghain Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("24_b1bah")
@@ -990,12 +1205,13 @@ visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
-[node name="Fa\'" type="Sprite2D" parent="BookPage/Fa\' Node"]
+[node name="Fa" type="Sprite2D" parent="BookPage/Fa\' Node"]
+unique_name_in_owner = true
 position = Vector2(327, 306)
 scale = Vector2(0.928571, 0.928572)
 texture = ExtResource("25_ec3dn")
 
-[node name="Description" type="Label" parent="BookPage/Fa\' Node/Fa\'"]
+[node name="Description" type="Label" parent="BookPage/Fa\' Node/Fa"]
 offset_left = -62.4103
 offset_top = 184.564
 offset_right = 103.59
@@ -1033,6 +1249,70 @@ theme_override_fonts/font = ExtResource("4_gepxu")
 theme_override_font_sizes/font_size = 500
 text = "Alang Alang"
 horizontal_alignment = 1
+
+[node name="Quiz4 Node" type="Node2D" parent="BookPage"]
+visible = false
+scale = Vector2(1, 1)
+script = ExtResource("29_k40ob")
+
+[node name="Abjad" type="Sprite2D" parent="BookPage/Quiz4 Node"]
+position = Vector2(15.8552, 14.1789)
+scale = Vector2(-0.0801486, -0.0801487)
+flip_h = true
+flip_v = true
+
+[node name="Question" type="Label" parent="BookPage/Quiz4 Node"]
+texture_filter = 1
+offset_left = 35.6199
+offset_top = 5.13821
+offset_right = 246.62
+offset_bottom = 28.1382
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "What Abjad is this?"
+
+[node name="Answer" type="LineEdit" parent="BookPage/Quiz4 Node"]
+offset_left = 36.0
+offset_top = 9.0
+offset_right = 214.0
+offset_bottom = 37.0
+scale = Vector2(0.14, 0.14)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 20
+placeholder_text = "Answer"
+alignment = 1
+
+[node name="Correction" type="Label" parent="BookPage/Quiz4 Node"]
+texture_filter = 1
+offset_left = 42.0634
+offset_top = 16.7805
+offset_right = 134.063
+offset_bottom = 39.7805
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_color = Color(0.0833333, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "Correct!"
+horizontal_alignment = 1
+
+[node name="Submit" type="Button" parent="BookPage/Quiz4 Node"]
+offset_left = 40.543
+offset_top = 21.2033
+offset_right = 92.543
+offset_bottom = 39.2033
+scale = Vector2(0.253, 0.23)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 10
+text = "Submit"
 
 [node name="Qof Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -1279,6 +1559,70 @@ theme_override_font_sizes/font_size = 500
 text = "Alang Alang"
 horizontal_alignment = 1
 
+[node name="Quiz5 Node" type="Node2D" parent="BookPage"]
+visible = false
+scale = Vector2(1, 1)
+script = ExtResource("35_fviqr")
+
+[node name="Abjad" type="Sprite2D" parent="BookPage/Quiz5 Node"]
+position = Vector2(15.8552, 14.1789)
+scale = Vector2(-0.0801486, -0.0801487)
+flip_h = true
+flip_v = true
+
+[node name="Question" type="Label" parent="BookPage/Quiz5 Node"]
+texture_filter = 1
+offset_left = 35.6199
+offset_top = 5.13821
+offset_right = 246.62
+offset_bottom = 28.1382
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "What Abjad is this?"
+
+[node name="Answer" type="LineEdit" parent="BookPage/Quiz5 Node"]
+offset_left = 36.0
+offset_top = 9.0
+offset_right = 214.0
+offset_bottom = 37.0
+scale = Vector2(0.14, 0.14)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 20
+placeholder_text = "Answer"
+alignment = 1
+
+[node name="Correction" type="Label" parent="BookPage/Quiz5 Node"]
+texture_filter = 1
+offset_left = 42.0634
+offset_top = 16.7805
+offset_right = 134.063
+offset_bottom = 39.7805
+scale = Vector2(0.12, 0.12)
+theme_override_colors/font_color = Color(0.0833333, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 22
+text = "Correct!"
+horizontal_alignment = 1
+
+[node name="Submit" type="Button" parent="BookPage/Quiz5 Node"]
+offset_left = 40.543
+offset_top = 21.2033
+offset_right = 92.543
+offset_bottom = 39.2033
+scale = Vector2(0.253, 0.23)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_gepxu")
+theme_override_font_sizes/font_size = 10
+text = "Submit"
+
 [node name="Waw Node" type="Node2D" parent="BookPage"]
 visible = false
 position = Vector2(-5.14027, -5.13819)
@@ -1439,6 +1783,7 @@ text = "Home"
 script = ExtResource("5_k6an3")
 
 [node name="NextBtn" type="Button" parent="."]
+unique_name_in_owner = true
 offset_left = 1029.0
 offset_top = 311.0
 offset_right = 1147.0
@@ -1467,10 +1812,20 @@ offset_right = 1142.0
 offset_bottom = 70.0
 theme = SubResource("Theme_vjdpq")
 min_value = 1.0
-max_value = 28.0
+max_value = 33.0
 value = 1.0
 rounded = true
 
+[connection signal="visibility_changed" from="BookPage/Quiz1 Node" to="BookPage/Quiz1 Node" method="_on_visibility_changed"]
+[connection signal="button_down" from="BookPage/Quiz1 Node/Submit" to="BookPage/Quiz1 Node" method="_on_submit_button_down"]
+[connection signal="visibility_changed" from="BookPage/Quiz2 Node" to="BookPage/Quiz2 Node" method="_on_visibility_changed"]
+[connection signal="button_down" from="BookPage/Quiz2 Node/Submit" to="BookPage/Quiz2 Node" method="_on_submit_button_down"]
+[connection signal="visibility_changed" from="BookPage/Quiz3 Node" to="BookPage/Quiz3 Node" method="_on_visibility_changed"]
+[connection signal="button_down" from="BookPage/Quiz3 Node/Submit" to="BookPage/Quiz3 Node" method="_on_submit_button_down"]
+[connection signal="visibility_changed" from="BookPage/Quiz4 Node" to="BookPage/Quiz4 Node" method="_on_visibility_changed"]
+[connection signal="button_down" from="BookPage/Quiz4 Node/Submit" to="BookPage/Quiz4 Node" method="_on_submit_button_down"]
+[connection signal="visibility_changed" from="BookPage/Quiz5 Node" to="BookPage/Quiz5 Node" method="_on_visibility_changed"]
+[connection signal="button_down" from="BookPage/Quiz5 Node/Submit" to="BookPage/Quiz5 Node" method="_on_submit_button_down"]
 [connection signal="button_down" from="HomeBtn" to="HomeBtn" method="_on_button_down"]
 [connection signal="button_down" from="NextBtn" to="BookPage" method="_on_next_btn_button_down"]
 [connection signal="button_down" from="Previous" to="BookPage" method="_on_previous_button_down"]

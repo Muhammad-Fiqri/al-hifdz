@@ -55,10 +55,10 @@ offset = Vector2(160, 160)
 [node name="AdventureBtn" type="TextureButton" parent="."]
 texture_filter = 1
 layout_mode = 0
-offset_left = 755.0
-offset_top = 215.0
-offset_right = 1075.0
-offset_bottom = 535.0
+offset_left = 757.0
+offset_top = 203.0
+offset_right = 1077.0
+offset_bottom = 523.0
 texture_normal = ExtResource("4_rvc5e")
 stretch_mode = 4
 script = ExtResource("6_cn0i8")
