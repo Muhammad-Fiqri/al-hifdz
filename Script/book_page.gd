@@ -1,7 +1,7 @@
 extends Sprite2D
 
 @onready var abjad_nodes:Array = get_children()
-var page_length:int = abjad_nodes.size()
+@onready var page_length:int = abjad_nodes.size()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -15,10 +15,10 @@ func _process(delta):
 
 
 func handle_page_change():
-	if Global.current_page > 28:
-		Global.current_page = 1
+	if Global.current_page > page_length:
+		Global.current_page = 33
 	if Global.current_page < 1:
-		Global.current_page = 28
+		Global.current_page = 1
 	
 	get_parent().get_node("PageNum").value = Global.current_page
 	
