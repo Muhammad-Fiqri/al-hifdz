@@ -1,0 +1,128 @@
+[gd_scene load_steps=5 format=3 uid="uid://c3ohvdxuaru2o"]
+
+[ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_0r8cf"]
+[ext_resource type="Script" path="res://Script/practice_abjad.gd" id="1_dq4gm"]
+[ext_resource type="FontFile" uid="uid://o2ilkpqd1i0f" path="res://Assets/fonts/MinecraftRegular-Bmg3.otf" id="3_h0qlh"]
+[ext_resource type="Script" path="res://Script/home_btn.gd" id="4_gp0an"]
+
+[node name="Practice Abjad" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dq4gm")
+
+[node name="Background" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_0r8cf")
+
+[node name="BgAbjad" type="ColorRect" parent="."]
+z_as_relative = false
+layout_mode = 0
+offset_left = 92.0
+offset_top = 90.0
+offset_right = 497.0
+offset_bottom = 544.0
+
+[node name="AbjadTexture" type="TextureRect" parent="BgAbjad"]
+unique_name_in_owner = true
+z_index = 1
+texture_filter = 1
+layout_mode = 0
+offset_top = 47.0
+offset_right = 406.0
+offset_bottom = 403.0
+stretch_mode = 5
+
+[node name="Question" type="Label" parent="."]
+layout_mode = 0
+offset_left = 583.0
+offset_top = 137.0
+offset_right = 1076.0
+offset_bottom = 187.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "What Abjad is this?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Answer" type="LineEdit" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 584.0
+offset_top = 199.0
+offset_right = 1063.0
+offset_bottom = 294.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 40
+placeholder_text = "Answer Here"
+alignment = 1
+
+[node name="Submit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 683.0
+offset_top = 396.0
+offset_right = 951.0
+offset_bottom = 485.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 40
+text = "Submit"
+
+[node name="HomeBtn" type="Button" parent="."]
+offset_left = 15.0
+offset_top = 16.0
+offset_right = 158.0
+offset_bottom = 80.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "Home"
+script = ExtResource("4_gp0an")
+
+[node name="Stage" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = 335.0
+offset_top = 10.0
+offset_right = 828.0
+offset_bottom = 81.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "Stage 1/28"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="TimerLabel" type="Label" parent="Timer"]
+unique_name_in_owner = true
+offset_left = 739.0
+offset_top = -2.0
+offset_right = 1150.0
+offset_bottom = 69.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "0
+"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[connection signal="button_down" from="Submit" to="." method="_on_submit_button_down"]
+[connection signal="button_down" from="HomeBtn" to="HomeBtn" method="_on_button_down"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

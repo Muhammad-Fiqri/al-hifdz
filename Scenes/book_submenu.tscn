@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=3 uid="uid://x6bojhwr566w"]
+
+[ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_8lo81"]
+[ext_resource type="Script" path="res://Script/book_submenu.gd" id="1_pfiug"]
+[ext_resource type="FontFile" uid="uid://o2ilkpqd1i0f" path="res://Assets/fonts/MinecraftRegular-Bmg3.otf" id="3_xylw0"]
+
+[node name="Book Submenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pfiug")
+
+[node name="Background" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_8lo81")
+
+[node name="Learn Abjad" type="Button" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 203.0
+offset_right = 484.0
+offset_bottom = 427.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_xylw0")
+theme_override_font_sizes/font_size = 50
+text = "Learn
+Abjad"
+
+[node name="Practice Abjad" type="Button" parent="."]
+offset_left = 680.0
+offset_top = 203.0
+offset_right = 1094.0
+offset_bottom = 427.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_xylw0")
+theme_override_font_sizes/font_size = 50
+text = "Practice
+Abjad"
+
+[connection signal="button_down" from="Learn Abjad" to="." method="_on_learn_abjad_button_down"]
+[connection signal="button_down" from="Practice Abjad" to="." method="_on_practice_abjad_button_down"]
