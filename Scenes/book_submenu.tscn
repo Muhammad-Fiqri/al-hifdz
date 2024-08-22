@@ -23,9 +23,9 @@ texture = ExtResource("1_8lo81")
 [node name="Learn Abjad" type="Button" parent="."]
 layout_mode = 0
 offset_left = 70.0
-offset_top = 203.0
+offset_top = 66.0
 offset_right = 484.0
-offset_bottom = 427.0
+offset_bottom = 290.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("3_xylw0")
@@ -34,16 +34,32 @@ text = "Learn
 Abjad"
 
 [node name="Practice Abjad" type="Button" parent="."]
+layout_mode = 0
 offset_left = 680.0
-offset_top = 203.0
+offset_top = 66.0
 offset_right = 1094.0
-offset_bottom = 427.0
+offset_bottom = 290.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("3_xylw0")
 theme_override_font_sizes/font_size = 50
 text = "Practice
 Abjad"
+
+[node name="Leaderboard" type="Label" parent="."]
+layout_mode = 0
+offset_left = 684.0
+offset_top = 331.0
+offset_right = 1092.0
+offset_bottom = 606.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_xylw0")
+theme_override_font_sizes/font_size = 40
+text = "Top Leaderbord:
+1.
+2.
+3."
 
 [connection signal="button_down" from="Learn Abjad" to="." method="_on_learn_abjad_button_down"]
 [connection signal="button_down" from="Practice Abjad" to="." method="_on_practice_abjad_button_down"]
