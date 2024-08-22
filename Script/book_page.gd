@@ -16,9 +16,9 @@ func _process(delta):
 
 func handle_page_change():
 	if Global.current_page > page_length:
-		Global.current_page = 33
-	if Global.current_page < 1:
 		Global.current_page = 1
+	if Global.current_page < 1:
+		Global.current_page = page_length
 	
 	get_parent().get_node("PageNum").value = Global.current_page
 	

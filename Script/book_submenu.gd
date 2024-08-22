@@ -1,4 +1,4 @@
-extends TextureButton
+extends Control
 
 
 # Called when the node enters the scene tree for the first time.
@@ -11,13 +11,9 @@ func _process(delta):
 	pass
 
 
-func _on_button_down():
-	get_tree().change_scene_to_file("res://Scenes/book_submenu.tscn")
+func _on_learn_abjad_button_down():
+	get_tree().change_scene_to_file("res://Scenes/Learn Abjad.tscn")
 
 
-func _on_mouse_entered():
-	$PointLight2D.visible = true
-
-
-func _on_mouse_exited():
-	$PointLight2D.visible = false
+func _on_practice_abjad_button_down():
+	get_tree().change_scene_to_file("res://Scenes/practice_abjad.tscn")
