@@ -80,6 +80,7 @@ theme_override_font_sizes/font_size = 40
 text = "Submit"
 
 [node name="HomeBtn" type="Button" parent="."]
+layout_mode = 0
 offset_left = 15.0
 offset_top = 16.0
 offset_right = 158.0
@@ -93,6 +94,7 @@ script = ExtResource("4_gp0an")
 
 [node name="Stage" type="Label" parent="."]
 unique_name_in_owner = true
+layout_mode = 0
 offset_left = 335.0
 offset_top = 10.0
 offset_right = 828.0
@@ -102,6 +104,21 @@ theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("3_h0qlh")
 theme_override_font_sizes/font_size = 50
 text = "Stage 1/28"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Hint" type="Label" parent="."]
+visible = false
+offset_left = 583.0
+offset_top = 322.0
+offset_right = 1076.0
+offset_bottom = 372.0
+theme_override_colors/font_color = Color(0.968304, 0.0272567, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "Hint: "
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -123,6 +140,40 @@ text = "0
 horizontal_alignment = 2
 vertical_alignment = 1
 
+[node name="Win Panel" type="Panel" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 301.0
+offset_top = 102.0
+offset_right = 854.0
+offset_bottom = 486.0
+
+[node name="Label" type="Label" parent="Win Panel"]
+layout_mode = 0
+offset_right = 550.0
+offset_bottom = 381.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "You Win!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HomeBtn" type="Button" parent="Win Panel"]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 292.0
+offset_right = 347.0
+offset_bottom = 356.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("3_h0qlh")
+theme_override_font_sizes/font_size = 50
+text = "Home"
+script = ExtResource("4_gp0an")
+
 [connection signal="button_down" from="Submit" to="." method="_on_submit_button_down"]
 [connection signal="button_down" from="HomeBtn" to="HomeBtn" method="_on_button_down"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="button_down" from="Win Panel/HomeBtn" to="Win Panel/HomeBtn" method="_on_button_down"]

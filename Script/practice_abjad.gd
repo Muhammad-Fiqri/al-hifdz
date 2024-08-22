@@ -112,14 +112,31 @@ func _on_timer_timeout():
 	elapsed_time += 1
 	%TimerLabel.text = str(elapsed_time)
 
+const FILE_NAME = "res://record_time.txt"
+func save_time_record():
+	var file = FileAccess.open(FILE_NAME, FileAccess.READ_WRITE)
+	file.seek_end()
+	file.store_string(str(elapsed_time)+",\n")
+
+func handle_win():
+	$"Win Panel".visible = true
+	$Timer.paused = true
+	save_time_record()
+
 func next_stage():
 	if stage < 28:
 		stage += 1
 		%Stage.text = "Stage "+str(stage)+"/28"
 		choose_abjad()
 	else:
-		print("you win")
+		handle_win()
+
+var mistakes = 0
 
 func _on_submit_button_down():
 	if %Answer.text == right_answer:
 		next_stage()
+	else:
+		mistakes += 1
+		$Hint.visible = true
+		$Hint.text = "Hint: "+right_answer.left(mistakes)
