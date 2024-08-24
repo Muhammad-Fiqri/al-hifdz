@@ -109,6 +109,7 @@ vertical_alignment = 1
 
 [node name="Hint" type="Label" parent="."]
 visible = false
+layout_mode = 0
 offset_left = 583.0
 offset_top = 322.0
 offset_right = 1076.0
@@ -141,7 +142,9 @@ horizontal_alignment = 2
 vertical_alignment = 1
 
 [node name="Win Panel" type="Panel" parent="."]
+process_mode = 3
 visible = false
+z_index = 5
 layout_mode = 0
 offset_left = 301.0
 offset_top = 102.0

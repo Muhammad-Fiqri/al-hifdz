@@ -1,6 +1,5 @@
 extends Control
 
-var elapsed_time:int = 0
 var stage:int = 1
 @onready var alif = preload("res://Assets/alif.png")
 @onready var ba = preload("res://Assets/ba.png")
@@ -37,7 +36,7 @@ var rng:int
 
 func choose_abjad():
 	rng = randi_range(0,abjad_count-1)
-	right_answer = abjad_list.pop_at(rng)
+	right_answer = abjad_list[rng]
 	match right_answer:
 		"Alif":
 			%AbjadTexture.texture = alif
@@ -98,47 +97,79 @@ func choose_abjad():
 	
 	abjad_count = abjad_list.size()
 
+var right_btn_num:int
+var right_btn_node:Button
+func choose_right_btn():
+	right_btn_num = randi_range(1,4)
+	right_btn_node = get_node("Player/PlayerAnswer"+str(right_btn_num))
+	right_btn_node.text = right_answer
+
+var rng_falsify:int
+var abjad_falsify:String
+func generate_false_abjad():
+	rng_falsify = randi_range(0,27)
+	abjad_falsify = abjad_list[rng_falsify]
+	if abjad_falsify == right_answer:
+		generate_false_abjad()
+	return abjad_falsify
+
+func falsify_wrong_btn():
+	for i in range(1,5):
+		if i != right_btn_num:
+			var btn:Button = get_node("Player/PlayerAnswer"+str(i))
+			var false_abjad:String = generate_false_abjad()
+			btn.text = false_abjad
+
+func create_round():
+	choose_abjad()
+	choose_right_btn()
+	falsify_wrong_btn()
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	choose_abjad()
-
+	create_round()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
+func new_stage():
+	%EnemyHealth.max_value = 100  + (stage * 10)
+	%EnemyHealth.value = 100  + (stage * 10)
+	stage += 1
+	%Stage.text = "Stage "+str(stage)
 
-func _on_timer_timeout():
-	elapsed_time += 1
-	%TimerLabel.text = str(elapsed_time)
-
-const FILE_NAME = "res://record_time.txt"
-func save_time_record():
-	var file = FileAccess.open(FILE_NAME, FileAccess.READ_WRITE)
-	file.seek_end()
-	file.store_string(str(elapsed_time)+",\n")
-
-func handle_win():
-	$"Win Panel".visible = true
-	$Timer.paused = true
-	get_tree().paused = true
-	save_time_record()
-
-func next_stage():
-	if stage < 28:
-		stage += 1
-		%Stage.text = "Stage "+str(stage)+"/28"
-		choose_abjad()
+var base_damage:int = 10
+func validate_player_answer():
+	if chosen_answer == right_btn_num:
+		%EnemyHealth.value -= base_damage * (stage)
 	else:
-		handle_win()
+		%PlayerHealth.value -= base_damage * (stage)
+	
+	if %PlayerHealth.value <= 0:
+		$"Lose Panel".visible = true
+	
+	if %EnemyHealth.value <= 0:
+		new_stage()
+	
+	create_round()
 
-var mistakes = 0
-func _on_submit_button_down():
-	if %Answer.text == right_answer:
-		next_stage()
-		mistakes = 0
-		$Hint.visible = false
-	else:
-		mistakes += 1
-		$Hint.visible = true
-		$Hint.text = "Hint: "+right_answer.left(mistakes)
+var chosen_answer:int
+func _on_player_answer_1_button_down():
+	chosen_answer = 1
+	validate_player_answer()
+
+
+func _on_player_answer_2_button_down():
+	chosen_answer = 2
+	validate_player_answer()
+
+
+func _on_player_answer_3_button_down():
+	chosen_answer = 3
+	validate_player_answer()
+
+
+func _on_player_answer_4_button_down():
+	chosen_answer = 4
+	validate_player_answer()

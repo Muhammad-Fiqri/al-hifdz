@@ -21,3 +21,7 @@ func _on_mouse_entered():
 
 func _on_mouse_exited():
 	$PointLight2D.visible = false
+
+
+func _on_adventure_btn_button_down():
+	get_tree().change_scene_to_file("res://Scenes/adventure.tscn")

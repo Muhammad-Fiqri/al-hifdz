@@ -99,6 +99,7 @@ script = ExtResource("6_554w2")
 [connection signal="button_down" from="BookBtn" to="BookBtn" method="_on_button_down"]
 [connection signal="mouse_entered" from="BookBtn" to="BookBtn" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="BookBtn" to="BookBtn" method="_on_mouse_exited"]
+[connection signal="button_down" from="AdventureBtn" to="BookBtn" method="_on_adventure_btn_button_down"]
 [connection signal="mouse_entered" from="AdventureBtn" to="AdventureBtn" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="AdventureBtn" to="AdventureBtn" method="_on_mouse_exited"]
 [connection signal="button_down" from="ExitBtn" to="ExitBtn" method="_on_button_down"]
