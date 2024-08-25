@@ -99,6 +99,7 @@ text = "Exit"
 script = ExtResource("6_554w2")
 
 [node name="AdventureLeaderboard" type="Label" parent="."]
+layout_mode = 0
 offset_left = 407.0
 offset_top = 231.0
 offset_right = 743.0
