@@ -139,6 +139,22 @@ func new_stage():
 	stage += 1
 	%Stage.text = "Stage "+str(stage)
 
+var score:int = 0
+const FILE_NAME = "res://record_score.txt"
+func save_score_record():
+	var file = FileAccess.open(FILE_NAME, FileAccess.READ_WRITE)
+	file.seek_end()
+	file.store_string(str(score)+",\n")
+
+func game_over():
+	$"Lose Panel".visible = true
+	save_score_record()
+
+func enemy_died():
+	score += 10 * stage
+	$Score.text = str(score) 
+	new_stage()
+
 var base_damage:int = 10
 func validate_player_answer():
 	if chosen_answer == right_btn_num:
@@ -147,10 +163,10 @@ func validate_player_answer():
 		%PlayerHealth.value -= base_damage * (stage)
 	
 	if %PlayerHealth.value <= 0:
-		$"Lose Panel".visible = true
+		game_over()
 	
 	if %EnemyHealth.value <= 0:
-		new_stage()
+		enemy_died()
 	
 	create_round()
 

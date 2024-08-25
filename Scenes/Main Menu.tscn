@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://bres1h3ca8r5"]
+[gd_scene load_steps=10 format=3 uid="uid://bres1h3ca8r5"]
 
 [ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_1pr6o"]
 [ext_resource type="Texture2D" uid="uid://bag7b78no2dun" path="res://Assets/book stacked.png" id="2_v4a7j"]
@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://d2j3u3ff35ypi" path="res://Assets/Book Opened.png" id="4_rvc5e"]
 [ext_resource type="Script" path="res://Script/exit_btn.gd" id="6_554w2"]
 [ext_resource type="Script" path="res://Script/adventure_btn.gd" id="6_cn0i8"]
+[ext_resource type="FontFile" uid="uid://o2ilkpqd1i0f" path="res://Assets/fonts/MinecraftRegular-Bmg3.otf" id="8_pvtal"]
+[ext_resource type="Script" path="res://Script/adventure_eaderboard.gd" id="9_o5t8o"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -95,6 +97,21 @@ theme_override_fonts/font = ExtResource("3_2b0s2")
 theme_override_font_sizes/font_size = 50
 text = "Exit"
 script = ExtResource("6_554w2")
+
+[node name="AdventureLeaderboard" type="Label" parent="."]
+offset_left = 407.0
+offset_top = 231.0
+offset_right = 743.0
+offset_bottom = 506.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("8_pvtal")
+theme_override_font_sizes/font_size = 40
+text = "Top Leaderbord:
+1.
+1.
+1."
+script = ExtResource("9_o5t8o")
 
 [connection signal="button_down" from="BookBtn" to="BookBtn" method="_on_button_down"]
 [connection signal="mouse_entered" from="BookBtn" to="BookBtn" method="_on_mouse_entered"]
