@@ -605,6 +605,7 @@ text = "Busur"
 horizontal_alignment = 1
 
 [node name="Zay Node" type="Node2D" parent="BookPage"]
+visible = false
 position = Vector2(-5.14027, -5.13819)
 scale = Vector2(0.0608145, 0.054634)
 
