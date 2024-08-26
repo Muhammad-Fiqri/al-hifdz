@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://kulv0083q8ha"]
+[gd_scene load_steps=57 format=3 uid="uid://kulv0083q8ha"]
 
 [ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_7p1o1"]
 [ext_resource type="Texture2D" uid="uid://d38s7hncckrw8" path="res://Assets/book page.png" id="2_b7awg"]
@@ -9,31 +9,52 @@
 [ext_resource type="Texture2D" uid="uid://cfvxpwhe11ajh" path="res://Assets/alang-alang.png" id="6_tkmac"]
 [ext_resource type="Texture2D" uid="uid://bfp5fhm6ow01h" path="res://Assets/ba.png" id="7_51gx2"]
 [ext_resource type="Texture2D" uid="uid://chu27vmjdrhaj" path="res://Assets/ta.png" id="8_dffy1"]
+[ext_resource type="Texture2D" uid="uid://jkasyklnqt2c" path="res://Assets/referensi ba.png" id="8_t22f0"]
 [ext_resource type="Texture2D" uid="uid://q8q7pajvobf7" path="res://Assets/tsa.png" id="9_jq8qs"]
 [ext_resource type="Texture2D" uid="uid://c63pg54r1lwtu" path="res://Assets/jim.png" id="10_7m7ly"]
+[ext_resource type="Texture2D" uid="uid://brh6bocb0rtpn" path="res://Assets/Tahu.png" id="10_ahhfu"]
 [ext_resource type="Texture2D" uid="uid://bt2pxvjgs8cf8" path="res://Assets/ha.png" id="11_w5ntn"]
 [ext_resource type="Texture2D" uid="uid://7eyfn0oqybn1" path="res://Assets/kho'.png" id="12_31j8x"]
+[ext_resource type="Texture2D" uid="uid://dipk3qo5utte2" path="res://Assets/Soap.png" id="12_086g5"]
 [ext_resource type="Texture2D" uid="uid://cybo2gr87d8gh" path="res://Assets/dal.png" id="13_65h6s"]
+[ext_resource type="Texture2D" uid="uid://cgxpjqkrygtqj" path="res://Assets/nomor 2 terbalik.png" id="14_mapfh"]
 [ext_resource type="Texture2D" uid="uid://cetx0trjhnlai" path="res://Assets/dzal.png" id="14_ye2p3"]
 [ext_resource type="Texture2D" uid="uid://oxbyrqmipnwb" path="res://Assets/ro'.png" id="15_b4b6a"]
 [ext_resource type="Texture2D" uid="uid://b1ux8v4sa8rpy" path="res://Assets/zay.png" id="16_mxkhr"]
 [ext_resource type="Texture2D" uid="uid://cr3t8r0qe51dt" path="res://Assets/sin.png" id="17_vi3hx"]
 [ext_resource type="Texture2D" uid="uid://d0ilbd361ekol" path="res://Assets/syin.png" id="18_essjm"]
+[ext_resource type="Texture2D" uid="uid://bh371jdoecq6t" path="res://Assets/Sickle Moon.jpg" id="18_ft0au"]
 [ext_resource type="Texture2D" uid="uid://bn2pomurh13ok" path="res://Assets/shod.png" id="19_33phu"]
 [ext_resource type="Texture2D" uid="uid://b0jp0dml72hhk" path="res://Assets/dhod.png" id="20_aii70"]
 [ext_resource type="Texture2D" uid="uid://dh5vb43wkjwy1" path="res://Assets/tho'.png" id="21_2f32h"]
+[ext_resource type="Texture2D" uid="uid://dqy41ik37g6cr" path="res://Assets/Bow.png" id="21_5x307"]
 [ext_resource type="Texture2D" uid="uid://b5ao7h8dcimv5" path="res://Assets/zho'.png" id="22_pvjlo"]
 [ext_resource type="Texture2D" uid="uid://bh58p4gq23c8x" path="res://Assets/ain.png" id="23_5r5iy"]
+[ext_resource type="Texture2D" uid="uid://diillf1e3q8te" path="res://Assets/Sickle.png" id="24_020af"]
 [ext_resource type="Texture2D" uid="uid://ct6q4byw2cupk" path="res://Assets/ghain.png" id="24_b1bah"]
 [ext_resource type="Texture2D" uid="uid://c7n7fgs8bx0hd" path="res://Assets/fa'.png" id="25_ec3dn"]
 [ext_resource type="Texture2D" uid="uid://dknfvbocwp5sl" path="res://Assets/qof.png" id="26_xnm1g"]
 [ext_resource type="Texture2D" uid="uid://cugp3e67r3dyf" path="res://Assets/kaf.png" id="27_0enh8"]
+[ext_resource type="Texture2D" uid="uid://14juhdlr6udx" path="res://Assets/Seahorse.png" id="27_e3bgu"]
 [ext_resource type="Texture2D" uid="uid://dd58bd46dc7da" path="res://Assets/lam.png" id="28_nggj0"]
 [ext_resource type="Texture2D" uid="uid://b65fgyfbfux5f" path="res://Assets/mim.png" id="29_px8j3"]
 [ext_resource type="Texture2D" uid="uid://dypy1a8ge7253" path="res://Assets/nun.png" id="30_jwxgj"]
+[ext_resource type="Texture2D" uid="uid://bbo6pp8xxb12g" path="res://Assets/Golf Club.png" id="30_o54xa"]
 [ext_resource type="Texture2D" uid="uid://caxqcpnkfqouy" path="res://Assets/waw.png" id="31_hwvtv"]
 [ext_resource type="Texture2D" uid="uid://j8cw0r7ttjh2" path="res://Assets/ha'.png" id="32_2xv3i"]
+[ext_resource type="Texture2D" uid="uid://3mrl3y4qofw4" path="res://Assets/number3.png" id="33_geuel"]
 [ext_resource type="Texture2D" uid="uid://ne8qcu1insw4" path="res://Assets/ya.png" id="33_u32nc"]
+[ext_resource type="Texture2D" uid="uid://qkigjtdqb3rb" path="res://Assets/kapal.png" id="36_3nu8i"]
+[ext_resource type="Texture2D" uid="uid://q3kmc6wxx0si" path="res://Assets/fax.png" id="37_uy4r5"]
+[ext_resource type="Texture2D" uid="uid://7eelqvvdy8ra" path="res://Assets/coffee.png" id="39_edalc"]
+[ext_resource type="Texture2D" uid="uid://by10jmd46c8cq" path="res://Assets/Hoki.png" id="41_irrdb"]
+[ext_resource type="Texture2D" uid="uid://bofungvglp7rc" path="res://Assets/L.png" id="43_w303i"]
+[ext_resource type="Texture2D" uid="uid://buojmt4d7vsya" path="res://Assets/snake staff.png" id="45_tdefa"]
+[ext_resource type="Texture2D" uid="uid://dlqdx2r5k4fm7" path="res://Assets/Nun Chuku.png" id="47_bcae2"]
+[ext_resource type="Texture2D" uid="uid://ctfde1ask2nni" path="res://Assets/karambit.png" id="49_jox53"]
+[ext_resource type="Texture2D" uid="uid://dgggwoi44afaw" path="res://Assets/helmet.png" id="51_mtevs"]
+[ext_resource type="Texture2D" uid="uid://bc72xmn8rhupy" path="res://Assets/S.png" id="53_clvor"]
+[ext_resource type="Texture2D" uid="uid://d31q2blvqp5vi" path="res://Assets/Yam.png" id="54_t7f33"]
 
 [sub_resource type="Theme" id="Theme_vjdpq"]
 default_font = ExtResource("4_gepxu")
@@ -48,7 +69,7 @@ centered = false
 
 [node name="BookPage" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(140, 107)
+position = Vector2(140, 89)
 scale = Vector2(13.8125, 15.375)
 texture = ExtResource("2_b7awg")
 centered = false
@@ -92,16 +113,17 @@ scale = Vector2(4.50514, 4.78492)
 texture = ExtResource("3_eg3g7")
 
 [node name="Description" type="Label" parent="BookPage/Alif Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+offset_left = -1303.82
+offset_top = -1862.59
+offset_right = 1555.18
+offset_bottom = -1029.59
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 92
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 415
+text = "(AL)ang (AL)ang"
 horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="Ba\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -126,32 +148,34 @@ theme_override_font_sizes/font_size = 64
 text = "Ba'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ba\' Node"]
-visible = false
+[node name="Bantal Leher" type="Sprite2D" parent="BookPage/Ba\' Node"]
 texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+position = Vector2(889.285, 403.572)
+scale = Vector2(0.382118, 0.334123)
+texture = ExtResource("8_t22f0")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Ba\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Ba" type="Sprite2D" parent="BookPage/Ba\' Node/Bantal Leher"]
+modulate = Color(1, 1, 1, 0.415686)
+position = Vector2(-7.73323, 132.447)
+rotation = 0.22282
+scale = Vector2(1.73334, 2.29141)
+texture = ExtResource("7_51gx2")
 
-[node name="Description" type="Label" parent="BookPage/Ba\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Ba\' Node/Bantal Leher"]
+offset_left = -341.068
+offset_top = -705.475
+offset_right = 320.932
+offset_bottom = -311.475
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 117
+text = "(BA')ntal leher 
+(di bawah)"
 horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="Ta\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -176,32 +200,44 @@ theme_override_font_sizes/font_size = 64
 text = "Ta'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ta\' Node"]
-visible = false
+[node name="Tahu" type="Sprite2D" parent="BookPage/Ta\' Node"]
 texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+position = Vector2(877.381, 439.286)
+scale = Vector2(0.513071, 0.3865)
+texture = ExtResource("8_t22f0")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Ta\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Ta" type="Sprite2D" parent="BookPage/Ta\' Node/Tahu"]
+modulate = Color(1, 1, 1, 0.415686)
+position = Vector2(-1.93333, 27.7215)
+rotation = 0.22282
+scale = Vector2(1.73334, 2.29141)
+texture = ExtResource("8_dffy1")
 
-[node name="Description" type="Label" parent="BookPage/Ta\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Ta\' Node/Tahu"]
+offset_left = -317.951
+offset_top = -720.756
+offset_right = 344.049
+offset_bottom = -499.756
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 99
+text = "(TA')hu 
+2 di atas"
 horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Tahu" type="Sprite2D" parent="BookPage/Ta\' Node/Tahu"]
+position = Vector2(-81.0885, -378.859)
+scale = Vector2(0.170038, 0.245439)
+texture = ExtResource("10_ahhfu")
+
+[node name="Tahu2" type="Sprite2D" parent="BookPage/Ta\' Node/Tahu"]
+position = Vector2(87.4898, -388.099)
+scale = Vector2(0.170038, 0.245439)
+texture = ExtResource("10_ahhfu")
 
 [node name="Tsa\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -226,32 +262,49 @@ theme_override_font_sizes/font_size = 64
 text = "Tsa'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Tsa\' Node"]
-visible = false
+[node name="Bantal Leher" type="Sprite2D" parent="BookPage/Tsa\' Node"]
 texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+position = Vector2(873.809, 488.096)
+scale = Vector2(0.502331, 0.3865)
+texture = ExtResource("8_t22f0")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Tsa\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Tsa" type="Sprite2D" parent="BookPage/Tsa\' Node/Bantal Leher"]
+modulate = Color(1, 1, 1, 0.415686)
+position = Vector2(-1.93333, 27.7215)
+rotation = 0.22282
+scale = Vector2(1.73334, 2.29141)
+texture = ExtResource("9_jq8qs")
 
-[node name="Description" type="Label" parent="BookPage/Tsa\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Tsa\' Node/Bantal Leher"]
+offset_left = -384.0
+offset_top = -939.0
+offset_right = 422.0
+offset_bottom = -718.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 99
+text = "(TSA')bun
+(3 di atas)"
 horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Soap" type="Sprite2D" parent="BookPage/Tsa\' Node/Bantal Leher"]
+position = Vector2(-11.8494, -579.069)
+scale = Vector2(0.188895, 0.245505)
+texture = ExtResource("12_086g5")
+
+[node name="Soap2" type="Sprite2D" parent="BookPage/Tsa\' Node/Bantal Leher"]
+position = Vector2(-113.755, -418.901)
+scale = Vector2(0.21759, 0.21759)
+texture = ExtResource("12_086g5")
+
+[node name="Soap3" type="Sprite2D" parent="BookPage/Tsa\' Node/Bantal Leher"]
+position = Vector2(89.1169, -422.077)
+scale = Vector2(0.210402, 0.210402)
+texture = ExtResource("12_086g5")
 
 [node name="Jim Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -276,32 +329,32 @@ theme_override_font_sizes/font_size = 64
 text = "jim"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Jim Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Nomor2Terbalik" type="Sprite2D" parent="BookPage/Jim Node"]
+position = Vector2(869.047, 453.572)
+scale = Vector2(0.433254, 0.430117)
+texture = ExtResource("14_mapfh")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Jim Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
-
-[node name="Description" type="Label" parent="BookPage/Jim Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Jim Node/Nomor2Terbalik"]
+offset_left = -437.0
+offset_top = -670.0
+offset_right = 497.0
+offset_bottom = -379.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 110
+text = "Nomor 2 Terbalik
+(1 di dalam)"
 horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Jim" type="Sprite2D" parent="BookPage/Jim Node/Nomor2Terbalik"]
+modulate = Color(1, 1, 1, 0.513726)
+position = Vector2(-5.4824, 2.40041)
+scale = Vector2(1.62531, 1.91569)
+texture = ExtResource("10_7m7ly")
 
 [node name="Ha\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -326,32 +379,31 @@ theme_override_font_sizes/font_size = 64
 text = "Ha'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ha\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Nomor2Terbalik" type="Sprite2D" parent="BookPage/Ha\' Node"]
+position = Vector2(869.047, 453.572)
+scale = Vector2(0.433254, 0.430117)
+texture = ExtResource("14_mapfh")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Ha\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
-
-[node name="Description" type="Label" parent="BookPage/Ha\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Ha\' Node/Nomor2Terbalik"]
+offset_left = -437.0
+offset_top = -670.0
+offset_right = 497.0
+offset_bottom = -379.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 110
+text = "Nomor 2 Terbalik"
 horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Ha" type="Sprite2D" parent="BookPage/Ha\' Node/Nomor2Terbalik"]
+modulate = Color(1, 1, 1, 0.466667)
+position = Vector2(-15.2938, 8.64142)
+scale = Vector2(1.48449, 2.0292)
+texture = ExtResource("11_w5ntn")
 
 [node name="Kho\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -376,32 +428,32 @@ theme_override_font_sizes/font_size = 64
 text = "Kho'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Kho\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Nomor2Terbalik" type="Sprite2D" parent="BookPage/Kho\' Node"]
+position = Vector2(886.904, 470.239)
+scale = Vector2(0.437128, 0.437129)
+texture = ExtResource("14_mapfh")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Kho\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Kho" type="Sprite2D" parent="BookPage/Kho\' Node/Nomor2Terbalik"]
+modulate = Color(1, 1, 1, 0.572549)
+position = Vector2(5.44684, -54.3652)
+scale = Vector2(1.96024, 1.9145)
+texture = ExtResource("12_31j8x")
 
-[node name="Description" type="Label" parent="BookPage/Kho\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Kho\' Node"]
+offset_left = 677.0
+offset_top = 120.0
+offset_right = 1083.0
+offset_bottom = 298.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 39
+text = "Nomor 2 Terbalik
+(Di atas 1)"
 horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="Dal Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -427,32 +479,31 @@ text = "Dal
 "
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Dal Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="SickleMoon" type="Sprite2D" parent="BookPage/Dal Node"]
+position = Vector2(878.571, 484.525)
+scale = Vector2(0.0280045, 0.0296128)
+texture = ExtResource("18_ft0au")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Dal Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Dal" type="Sprite2D" parent="BookPage/Dal Node/SickleMoon"]
+modulate = Color(1, 1, 1, 0.478431)
+position = Vector2(572.709, -0.000228882)
+rotation = 0.471239
+scale = Vector2(61.7936, 49.7629)
+texture = ExtResource("13_65h6s")
 
-[node name="Description" type="Label" parent="BookPage/Dal Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Dal Node"]
+offset_left = 679.0
+offset_top = 117.0
+offset_right = 1085.0
+offset_bottom = 365.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Bulan Sabit"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Dzal Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -477,32 +528,32 @@ theme_override_font_sizes/font_size = 64
 text = "Dzal"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Dzal Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="SickleMoon" type="Sprite2D" parent="BookPage/Dzal Node"]
+position = Vector2(878.571, 484.525)
+scale = Vector2(0.0280045, 0.0296128)
+texture = ExtResource("18_ft0au")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Dzal Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Dal" type="Sprite2D" parent="BookPage/Dzal Node/SickleMoon"]
+modulate = Color(1, 1, 1, 0.478431)
+position = Vector2(316.428, -1339.38)
+rotation = 0.020025
+scale = Vector2(52.0417, 41.9097)
+texture = ExtResource("14_ye2p3")
 
-[node name="Description" type="Label" parent="BookPage/Dzal Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Dzal Node"]
+offset_left = 679.0
+offset_top = 117.0
+offset_right = 1085.0
+offset_bottom = 365.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Bulan Sabit
+(1 di atas)"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Ro\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -527,31 +578,30 @@ theme_override_font_sizes/font_size = 64
 text = "Ro'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ro\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Bow" type="Sprite2D" parent="BookPage/Ro\' Node"]
+position = Vector2(873.809, 471.429)
+rotation = -0.151639
+scale = Vector2(0.447861, 0.447861)
+texture = ExtResource("21_5x307")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Ro\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Ro" type="Sprite2D" parent="BookPage/Ro\' Node/Bow"]
+modulate = Color(1, 1, 1, 0.45098)
+position = Vector2(19.9998, -7.69987)
+rotation = 0.436256
+scale = Vector2(2.90723, 2.78558)
+texture = ExtResource("15_b4b6a")
 
-[node name="Description" type="Label" parent="BookPage/Ro\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Ro\' Node"]
+offset_left = 779.762
+offset_top = 204.762
+offset_right = 971.762
+offset_bottom = 269.762
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Busur"
 horizontal_alignment = 1
 
 [node name="Zay Node" type="Node2D" parent="BookPage"]
@@ -577,32 +627,34 @@ theme_override_font_sizes/font_size = 64
 text = "Zay"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Zay Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Bow" type="Sprite2D" parent="BookPage/Zay Node"]
+position = Vector2(873.809, 471.429)
+rotation = -0.151639
+scale = Vector2(0.447861, 0.447861)
+texture = ExtResource("21_5x307")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Zay Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Zay" type="Sprite2D" parent="BookPage/Zay Node/Bow"]
+modulate = Color(1, 1, 1, 0.45098)
+position = Vector2(28.8336, -65.508)
+rotation = 0.436256
+scale = Vector2(2.90723, 2.78558)
+texture = ExtResource("16_mxkhr")
 
-[node name="Description" type="Label" parent="BookPage/Zay Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Zay Node"]
+offset_left = 686.0
+offset_top = 115.0
+offset_right = 1080.0
+offset_bottom = 294.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Busur
+(1 diatas)"
 horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
 
 [node name="Sin Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -627,32 +679,32 @@ theme_override_font_sizes/font_size = 64
 text = "Sin"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Sin Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Sickle" type="Sprite2D" parent="BookPage/Sin Node"]
+position = Vector2(855.952, 472.62)
+rotation = -1.09611
+scale = Vector2(0.204688, 0.204688)
+texture = ExtResource("24_020af")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Sin Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Sin" type="Sprite2D" parent="BookPage/Sin Node/Sickle"]
+modulate = Color(1, 1, 1, 0.407843)
+position = Vector2(-29.0293, 198.01)
+rotation = 1.08322
+scale = Vector2(5.16345, 5.16345)
+texture = ExtResource("17_vi3hx")
 
-[node name="Description" type="Label" parent="BookPage/Sin Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Sin Node"]
+offset_left = 679.0
+offset_top = 115.0
+offset_right = 1083.0
+offset_bottom = 397.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Sabit"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Syin Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -677,32 +729,33 @@ theme_override_font_sizes/font_size = 64
 text = "Syin"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Syin Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Sickle" type="Sprite2D" parent="BookPage/Syin Node"]
+position = Vector2(859.524, 486.906)
+rotation = -0.864021
+scale = Vector2(0.204688, 0.204688)
+texture = ExtResource("24_020af")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Syin Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Sin" type="Sprite2D" parent="BookPage/Syin Node/Sickle"]
+modulate = Color(1, 1, 1, 0.407843)
+position = Vector2(209.074, 88.7334)
+rotation = 1.08322
+scale = Vector2(5.16345, 5.16345)
+texture = ExtResource("18_essjm")
 
-[node name="Description" type="Label" parent="BookPage/Syin Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Syin Node"]
+offset_left = 679.0
+offset_top = 115.0
+offset_right = 1083.0
+offset_bottom = 397.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Sabit
+(3 di atas)"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Shod Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -727,32 +780,32 @@ theme_override_font_sizes/font_size = 64
 text = "Shod"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Shod Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Seahorse" type="Sprite2D" parent="BookPage/Shod Node"]
+position = Vector2(878.571, 502.382)
+rotation = 1.57792
+scale = Vector2(0.0948645, 0.0948645)
+texture = ExtResource("27_e3bgu")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Shod Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Shod" type="Sprite2D" parent="BookPage/Shod Node/Seahorse"]
+modulate = Color(1, 1, 1, 0.384314)
+position = Vector2(-55.7818, -474.839)
+rotation = -1.2207
+scale = Vector2(10.1896, 10.1896)
+texture = ExtResource("19_33phu")
 
-[node name="Description" type="Label" parent="BookPage/Shod Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Shod Node"]
+offset_left = 679.0
+offset_top = 115.0
+offset_right = 1083.0
+offset_bottom = 397.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Kuda Laut"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Dhod Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -777,32 +830,33 @@ theme_override_font_sizes/font_size = 64
 text = "Dhod"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Dhod Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Seahorse" type="Sprite2D" parent="BookPage/Dhod Node"]
+position = Vector2(878.571, 502.382)
+rotation = 1.57792
+scale = Vector2(0.0948645, 0.0948645)
+texture = ExtResource("27_e3bgu")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Dhod Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Shod" type="Sprite2D" parent="BookPage/Dhod Node/Seahorse"]
+modulate = Color(1, 1, 1, 0.384314)
+position = Vector2(-55.7818, -474.839)
+rotation = -1.2207
+scale = Vector2(10.1896, 10.1896)
+texture = ExtResource("20_aii70")
 
-[node name="Description" type="Label" parent="BookPage/Dhod Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Dhod Node"]
+offset_left = 679.0
+offset_top = 115.0
+offset_right = 1083.0
+offset_bottom = 397.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Kuda Laut
+(1 Di Atas)"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Tho\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -826,33 +880,33 @@ theme_override_fonts/font = ExtResource("4_gepxu")
 theme_override_font_sizes/font_size = 64
 text = "Tho'"
 horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Tho\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="GolfClub" type="Sprite2D" parent="BookPage/Tho\' Node"]
+position = Vector2(871.428, 485.715)
+scale = Vector2(0.0836655, 0.0781732)
+texture = ExtResource("30_o54xa")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Tho\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Tho" type="Sprite2D" parent="BookPage/Tho\' Node/GolfClub"]
+modulate = Color(1, 1, 1, 0.309804)
+position = Vector2(56.9157, 167.516)
+rotation = -0.372619
+scale = Vector2(8.71103, 8.71104)
+texture = ExtResource("21_2f32h")
 
-[node name="Description" type="Label" parent="BookPage/Tho\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Tho\' Node"]
+offset_left = 679.0
+offset_top = 115.0
+offset_right = 1083.0
+offset_bottom = 397.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Golf Club"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Zho\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -877,32 +931,32 @@ theme_override_font_sizes/font_size = 64
 text = "Zho'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Zho\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="GolfClub" type="Sprite2D" parent="BookPage/Zho\' Node"]
+position = Vector2(871.428, 485.715)
+scale = Vector2(0.0836655, 0.0781732)
+texture = ExtResource("30_o54xa")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Zho\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Tho" type="Sprite2D" parent="BookPage/Zho\' Node/GolfClub"]
+modulate = Color(1, 1, 1, 0.309804)
+position = Vector2(56.9157, 167.516)
+rotation = -0.372619
+scale = Vector2(8.71103, 8.71104)
+texture = ExtResource("22_pvjlo")
 
-[node name="Description" type="Label" parent="BookPage/Zho\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Zho\' Node"]
+offset_left = 679.0
+offset_top = 115.0
+offset_right = 1083.0
+offset_bottom = 397.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Golf Club
+(1 di atas)"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="\'Ain Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -927,31 +981,28 @@ theme_override_font_sizes/font_size = 64
 text = "'Ain"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/\'Ain Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Number3" type="Sprite2D" parent="BookPage/\'Ain Node"]
+position = Vector2(861.905, 488.096)
+scale = Vector2(0.499581, 0.499581)
+texture = ExtResource("33_geuel")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/\'Ain Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Ain" type="Sprite2D" parent="BookPage/\'Ain Node/Number3"]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(14.2975, 23.8297)
+scale = Vector2(1.28007, 1.28007)
+texture = ExtResource("23_5r5iy")
 
-[node name="Description" type="Label" parent="BookPage/\'Ain Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/\'Ain Node"]
+offset_left = 676.0
+offset_top = 126.0
+offset_right = 1084.0
+offset_bottom = 365.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Angka 3"
 horizontal_alignment = 1
 
 [node name="Ghain Node" type="Node2D" parent="BookPage"]
@@ -977,31 +1028,29 @@ theme_override_font_sizes/font_size = 64
 text = "Ghain"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ghain Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Number3" type="Sprite2D" parent="BookPage/Ghain Node"]
+position = Vector2(861.905, 488.096)
+scale = Vector2(0.499581, 0.499581)
+texture = ExtResource("33_geuel")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Ghain Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Ghain" type="Sprite2D" parent="BookPage/Ghain Node/Number3"]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(11.9145, -23.8296)
+scale = Vector2(1.28007, 1.28007)
+texture = ExtResource("24_b1bah")
 
-[node name="Description" type="Label" parent="BookPage/Ghain Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Ghain Node"]
+offset_left = 676.0
+offset_top = 126.0
+offset_right = 1084.0
+offset_bottom = 365.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Angka 3
+(1 di atas)"
 horizontal_alignment = 1
 
 [node name="Fa\' Node" type="Node2D" parent="BookPage"]
@@ -1027,32 +1076,36 @@ theme_override_font_sizes/font_size = 64
 text = "Fa'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Fa\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Kapal" type="Sprite2D" parent="BookPage/Fa\' Node"]
+position = Vector2(870.238, 501.191)
+scale = Vector2(0.139947, 0.139947)
+texture = ExtResource("36_3nu8i")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Fa\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Fax" type="Sprite2D" parent="BookPage/Fa\' Node/Kapal"]
+position = Vector2(238.186, -782.612)
+scale = Vector2(0.359441, 0.359441)
+texture = ExtResource("37_uy4r5")
 
-[node name="Description" type="Label" parent="BookPage/Fa\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Fa" type="Sprite2D" parent="BookPage/Fa\' Node/Kapal"]
+modulate = Color(1, 0.0942038, 0.893231, 0.529412)
+position = Vector2(68.0531, -126.498)
+scale = Vector2(5.44012, 6.44808)
+texture = ExtResource("25_ec3dn")
+
+[node name="Description" type="Label" parent="BookPage/Fa\' Node"]
+offset_left = 673.0
+offset_top = 126.0
+offset_right = 1088.0
+offset_bottom = 365.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "(Fa)x 
+di atas kapal"
 horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="Qof Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -1076,32 +1129,41 @@ theme_override_font_sizes/font_size = 64
 text = "Qof"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Qof Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Kapal" type="Sprite2D" parent="BookPage/Qof Node"]
+position = Vector2(870.238, 501.191)
+scale = Vector2(0.139947, 0.139947)
+texture = ExtResource("36_3nu8i")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Qof Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Coffee" type="Sprite2D" parent="BookPage/Qof Node/Kapal"]
+position = Vector2(-8.50655, -986.772)
+scale = Vector2(0.859281, 0.859281)
+texture = ExtResource("39_edalc")
 
-[node name="Description" type="Label" parent="BookPage/Qof Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Coffee2" type="Sprite2D" parent="BookPage/Qof Node/Kapal"]
+position = Vector2(433.838, -1080.35)
+scale = Vector2(0.738365, 0.738364)
+texture = ExtResource("39_edalc")
+
+[node name="Qof" type="Sprite2D" parent="BookPage/Qof Node/Kapal"]
+modulate = Color(1, 0.0942038, 0.893231, 0.529412)
+position = Vector2(97.8266, -273.17)
+scale = Vector2(8.50664, 7.59845)
+texture = ExtResource("26_xnm1g")
+
+[node name="Description" type="Label" parent="BookPage/Qof Node"]
+offset_left = 673.0
+offset_top = 126.0
+offset_right = 1088.0
+offset_bottom = 365.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "2 (QOF)i
+di atas kapal"
 horizontal_alignment = 1
+autowrap_mode = 2
 
 [node name="Kaf Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -1124,32 +1186,33 @@ theme_override_fonts/font = ExtResource("4_gepxu")
 theme_override_font_sizes/font_size = 64
 text = "Kaf"
 horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Kaf Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Hoki" type="Sprite2D" parent="BookPage/Kaf Node"]
+position = Vector2(875, 488.096)
+scale = Vector2(0.103366, 0.14191)
+texture = ExtResource("41_irrdb")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Kaf Node/Alang-alang"]
+[node name="Kaf" type="Sprite2D" parent="BookPage/Kaf Node/Hoki"]
 modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+position = Vector2(-155.863, -22.0428)
+rotation = 0.753788
+scale = Vector2(5.80527, 5.71591)
+texture = ExtResource("27_0enh8")
 
-[node name="Description" type="Label" parent="BookPage/Kaf Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Kaf Node"]
+offset_left = 676.0
+offset_top = 130.0
+offset_right = 1084.0
+offset_bottom = 368.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Stick
+hoc(K)ey
+(S di atas)"
 horizontal_alignment = 1
 
 [node name="Lam Node" type="Node2D" parent="BookPage"]
@@ -1174,32 +1237,31 @@ theme_override_font_sizes/font_size = 64
 text = "Lam"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Lam Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="L" type="Sprite2D" parent="BookPage/Lam Node"]
+position = Vector2(861.905, 488.096)
+scale = Vector2(0.252777, 0.252778)
+texture = ExtResource("43_w303i")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Lam Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Lam" type="Sprite2D" parent="BookPage/Lam Node/L"]
+modulate = Color(1, 1, 1, 0.494118)
+position = Vector2(-18.8387, -7.24792e-05)
+scale = Vector2(2.90333, 2.90333)
+texture = ExtResource("28_nggj0")
 
-[node name="Description" type="Label" parent="BookPage/Lam Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Lam Node"]
+offset_left = 677.0
+offset_top = 118.0
+offset_right = 1090.0
+offset_bottom = 358.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "(L)am Terbalik"
 horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
 
 [node name="Mim Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -1223,31 +1285,29 @@ theme_override_font_sizes/font_size = 64
 text = "Mim"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Mim Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="SnakeStaff" type="Sprite2D" parent="BookPage/Mim Node"]
+position = Vector2(880.952, 427.382)
+scale = Vector2(1.4017, 1.4017)
+texture = ExtResource("45_tdefa")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Mim Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Mim" type="Sprite2D" parent="BookPage/Mim Node/SnakeStaff"]
+modulate = Color(1, 1, 1, 0.462745)
+position = Vector2(7.14292, -8.33336)
+scale = Vector2(0.633583, 0.633584)
+texture = ExtResource("29_px8j3")
 
-[node name="Description" type="Label" parent="BookPage/Mim Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Mim Node"]
+offset_left = 679.0
+offset_top = 118.0
+offset_right = 1086.0
+offset_bottom = 251.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Tongkat
+Firaun"
 horizontal_alignment = 1
 
 [node name="Nun Node" type="Node2D" parent="BookPage"]
@@ -1272,31 +1332,35 @@ theme_override_font_sizes/font_size = 64
 text = "Nun"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Nun Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
-flip_h = true
+[node name="NunChuku" type="Sprite2D" parent="BookPage/Nun Node"]
+position = Vector2(857.143, 414.286)
+scale = Vector2(0.19007, 0.19007)
+texture = ExtResource("47_bcae2")
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Nun Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Sickle" type="Sprite2D" parent="BookPage/Nun Node"]
+position = Vector2(842.857, 489.287)
+rotation = 0.235628
+scale = Vector2(0.179647, 0.179647)
+texture = ExtResource("24_020af")
 
-[node name="Description" type="Label" parent="BookPage/Nun Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Nun2" type="Sprite2D" parent="BookPage/Nun Node"]
+modulate = Color(1, 1, 1, 0.462745)
+position = Vector2(875, 466.668)
+scale = Vector2(0.928571, 0.928572)
+texture = ExtResource("30_jwxgj")
+
+[node name="Description" type="Label" parent="BookPage/Nun Node"]
+offset_left = 677.0
+offset_top = 120.0
+offset_right = 1091.0
+offset_bottom = 356.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "(NUN) chaku
+di atas
+sabit"
 horizontal_alignment = 1
 
 [node name="Waw Node" type="Node2D" parent="BookPage"]
@@ -1321,31 +1385,33 @@ theme_override_font_sizes/font_size = 64
 text = "Waw"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Waw Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Karambit" type="Sprite2D" parent="BookPage/Waw Node"]
+position = Vector2(885.714, 498.81)
+rotation = 0.545897
+scale = Vector2(0.0609583, 0.0609584)
+texture = ExtResource("49_jox53")
 flip_h = true
+flip_v = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Waw Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Waw" type="Sprite2D" parent="BookPage/Waw Node/Karambit"]
+modulate = Color(1, 1, 1, 0.45098)
+position = Vector2(-147.879, -92.9716)
+rotation = -0.283969
+scale = Vector2(17.5294, 17.5295)
+texture = ExtResource("31_hwvtv")
 
-[node name="Description" type="Label" parent="BookPage/Waw Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Waw Node"]
+offset_left = 675.0
+offset_top = 124.0
+offset_right = 1082.0
+offset_bottom = 368.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "Waw!
+Ada
+Karambit!"
 horizontal_alignment = 1
 
 [node name="Haa\' Node" type="Node2D" parent="BookPage"]
@@ -1370,32 +1436,31 @@ theme_override_font_sizes/font_size = 64
 text = "Haa'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Haa\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
+[node name="Helmet" type="Sprite2D" parent="BookPage/Haa\' Node"]
+position = Vector2(876.19, 490.477)
+scale = Vector2(0.133475, 0.133475)
+texture = ExtResource("51_mtevs")
 flip_h = true
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Haa\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Haa\'" type="Sprite2D" parent="BookPage/Haa\' Node/Helmet"]
+modulate = Color(1, 1, 1, 0.443137)
+position = Vector2(-330.007, 17.8383)
+scale = Vector2(8.46064, 8.46065)
+texture = ExtResource("32_2xv3i")
 
-[node name="Description" type="Label" parent="BookPage/Haa\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Description" type="Label" parent="BookPage/Haa\' Node"]
+offset_left = 677.0
+offset_top = 125.0
+offset_right = 1088.0
+offset_bottom = 386.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "(H)elm
+Berekor"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Ya\' Node" type="Node2D" parent="BookPage"]
 visible = false
@@ -1419,32 +1484,40 @@ theme_override_font_sizes/font_size = 64
 text = "Ya'"
 horizontal_alignment = 1
 
-[node name="Alang-alang" type="Sprite2D" parent="BookPage/Ya\' Node"]
-visible = false
-texture_filter = 1
-position = Vector2(866.667, 403.571)
-scale = Vector2(0.140613, 0.140613)
-texture = ExtResource("6_tkmac")
-flip_h = true
+[node name="S" type="Sprite2D" parent="BookPage/Ya\' Node"]
+position = Vector2(872.619, 411.905)
+scale = Vector2(0.359355, 0.400007)
+texture = ExtResource("53_clvor")
 
-[node name="Alif" type="Sprite2D" parent="BookPage/Ya\' Node/Alang-alang"]
-modulate = Color(1, 1, 1, 0.458824)
-position = Vector2(260.048, 265.249)
-rotation = -0.283098
-scale = Vector2(4.50514, 4.78492)
-texture = ExtResource("3_eg3g7")
+[node name="Yam2" type="Sprite2D" parent="BookPage/Ya\' Node/S"]
+position = Vector2(96.0715, 366.066)
+scale = Vector2(0.478935, 0.430261)
+texture = ExtResource("54_t7f33")
 
-[node name="Description" type="Label" parent="BookPage/Ya\' Node/Alang-alang"]
-offset_left = -1301.44
-offset_top = -1685.47
-offset_right = 1598.56
-offset_bottom = -1185.47
+[node name="Yam" type="Sprite2D" parent="BookPage/Ya\' Node/S"]
+position = Vector2(-99.3843, 363.09)
+scale = Vector2(0.478935, 0.430261)
+texture = ExtResource("54_t7f33")
+
+[node name="Ya\'2" type="Sprite2D" parent="BookPage/Ya\' Node/S"]
+modulate = Color(1, 1, 1, 0.470588)
+position = Vector2(3.31287, 104.165)
+scale = Vector2(2.58399, 2.32139)
+texture = ExtResource("33_u32nc")
+
+[node name="Description" type="Label" parent="BookPage/Ya\' Node"]
+offset_left = 677.0
+offset_top = 123.0
+offset_right = 1089.0
+offset_bottom = 312.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 92
+theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("4_gepxu")
-theme_override_font_sizes/font_size = 500
-text = "Alang Alang"
+theme_override_font_sizes/font_size = 64
+text = "2 ubi (YA)m
+di bawah S"
 horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="HomeBtn" type="Button" parent="."]
 offset_left = 15.0
@@ -1457,6 +1530,7 @@ theme_override_fonts/font = ExtResource("4_gepxu")
 theme_override_font_sizes/font_size = 50
 text = "Home"
 script = ExtResource("5_k6an3")
+metadata/_edit_use_anchors_ = true
 
 [node name="NextBtn" type="Button" parent="."]
 offset_left = 1029.0
@@ -1468,6 +1542,7 @@ theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("4_gepxu")
 theme_override_font_sizes/font_size = 50
 text = "Next"
+metadata/_edit_use_anchors_ = true
 
 [node name="Previous" type="Button" parent="."]
 offset_left = 7.0
@@ -1479,6 +1554,7 @@ theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("4_gepxu")
 theme_override_font_sizes/font_size = 50
 text = "Prev"
+metadata/_edit_use_anchors_ = true
 
 [node name="PageNum" type="SpinBox" parent="."]
 offset_left = 998.0
@@ -1490,6 +1566,7 @@ min_value = 1.0
 max_value = 28.0
 value = 1.0
 rounded = true
+metadata/_edit_use_anchors_ = true
 
 [connection signal="button_down" from="HomeBtn" to="HomeBtn" method="_on_button_down"]
 [connection signal="button_down" from="NextBtn" to="BookPage" method="_on_next_btn_button_down"]
