@@ -128,16 +128,37 @@ func create_round():
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	create_round()
+	choose_genie()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+@onready var genie_list:Array = [%"Red Genie",%"Blue Genie",%"Green Genie",%"Pig Demon",%"Snake Demon"]
+func choose_genie():
+	for i in genie_list:
+		i.visible = false
+	
+	if stage != 10 and stage != 20:
+		print("S")
+		var rng:int = randi_range(0,2)
+		var genie:AnimatedSprite2D = genie_list[rng]
+		genie.visible = true
+	
+	if stage == 10:
+		var genie:AnimatedSprite2D = genie_list[3]
+		genie.visible = true
+	
+	if stage == 20:
+		var genie:AnimatedSprite2D = genie_list[4]
+		genie.visible = true
 
 func new_stage():
 	%EnemyHealth.max_value = 100  + (stage * 10)
 	%EnemyHealth.value = 100  + (stage * 10)
 	stage += 1
 	%Stage.text = "Stage "+str(stage)
+	choose_genie()
 
 var score:int = 0
 const FILE_NAME = "res://record_score.txt"
