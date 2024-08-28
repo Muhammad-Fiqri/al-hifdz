@@ -1,12 +1,204 @@
-[gd_scene load_steps=8 format=3 uid="uid://l4vt5daab5ky"]
+[gd_scene load_steps=38 format=3 uid="uid://l4vt5daab5ky"]
 
 [ext_resource type="Texture2D" uid="uid://bbia5hya4csk0" path="res://Assets/wood-table-texture-natural-patterns-on-wooden-top-enhancing-the-beauty-of_9938382.jpg" id="1_qdflj"]
 [ext_resource type="Script" path="res://Script/adventure.gd" id="1_u18vj"]
-[ext_resource type="Texture2D" uid="uid://bvw0dcbdq65bd" path="res://Assets/Satan.png" id="2_3fys6"]
+[ext_resource type="Texture2D" uid="uid://cxbaw2ayrjf4g" path="res://Assets/Satan Sprite Sheet.png" id="3_rkru7"]
 [ext_resource type="FontFile" uid="uid://o2ilkpqd1i0f" path="res://Assets/fonts/MinecraftRegular-Bmg3.otf" id="3_wet58"]
-[ext_resource type="Texture2D" uid="uid://dkit2hvj35vdp" path="res://Assets/Player.png" id="4_lw4v3"]
+[ext_resource type="Texture2D" uid="uid://jx3di744noq" path="res://Assets/Player Sprite Sheet.png" id="5_eun4u"]
 [ext_resource type="Script" path="res://Script/home_btn.gd" id="5_sxdkh"]
+[ext_resource type="Texture2D" uid="uid://2ckajmm8ajpe" path="res://Assets/blue genie.png" id="5_ypxds"]
 [ext_resource type="Texture2D" uid="uid://ddto8g2e7y463" path="res://Assets/alif.png" id="6_jrf6m"]
+[ext_resource type="Texture2D" uid="uid://fo6mpavk5cx4" path="res://Assets/green genie.png" id="6_ulg67"]
+[ext_resource type="Texture2D" uid="uid://5kkcaltm2fwf" path="res://Assets/Snake.png" id="7_nrapy"]
+[ext_resource type="Texture2D" uid="uid://bassbjec0ar2h" path="res://Assets/Pork Demon.png" id="8_fdanc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7hmd"]
+atlas = ExtResource("3_rkru7")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w15xp"]
+atlas = ExtResource("3_rkru7")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8qhcv"]
+atlas = ExtResource("3_rkru7")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vwyk4"]
+atlas = ExtResource("3_rkru7")
+region = Rect2(64, 64, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cescb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7hmd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w15xp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8qhcv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vwyk4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_87yub"]
+atlas = ExtResource("5_ypxds")
+region = Rect2(0, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00dg6"]
+atlas = ExtResource("5_ypxds")
+region = Rect2(64, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kc46a"]
+atlas = ExtResource("5_ypxds")
+region = Rect2(128, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3pfek"]
+atlas = ExtResource("5_ypxds")
+region = Rect2(192, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j284e"]
+atlas = ExtResource("5_ypxds")
+region = Rect2(256, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mjnk4"]
+atlas = ExtResource("5_ypxds")
+region = Rect2(320, 0, 64, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ays4h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_87yub")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00dg6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kc46a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3pfek")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j284e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mjnk4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vet0o"]
+atlas = ExtResource("6_ulg67")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_88sqq"]
+atlas = ExtResource("6_ulg67")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pbx4u"]
+atlas = ExtResource("6_ulg67")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fjaa3"]
+atlas = ExtResource("6_ulg67")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_suhrc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vet0o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_88sqq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pbx4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fjaa3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pcybc"]
+atlas = ExtResource("8_fdanc")
+region = Rect2(0, 0, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfwb5"]
+atlas = ExtResource("8_fdanc")
+region = Rect2(64, 0, 64, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p7wgy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pcybc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfwb5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p2wdb"]
+atlas = ExtResource("7_nrapy")
+region = Rect2(0, 0, 64, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vu8ym"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p2wdb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x55pq"]
+atlas = ExtResource("5_eun4u")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l5a7l"]
+atlas = ExtResource("5_eun4u")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0gv78"]
+atlas = ExtResource("5_eun4u")
+region = Rect2(0, 64, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_86x0m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x55pq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l5a7l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0gv78")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="Adventure" type="Control"]
 layout_mode = 3
@@ -24,11 +216,10 @@ offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_qdflj")
 
-[node name="Enemy" type="Sprite2D" parent="."]
+[node name="Enemy" type="Node2D" parent="."]
 texture_filter = 1
 position = Vector2(177, 308)
 scale = Vector2(2.88281, 2.88281)
-texture = ExtResource("2_3fys6")
 
 [node name="EnemyHealth" type="ProgressBar" parent="Enemy"]
 unique_name_in_owner = true
@@ -41,11 +232,50 @@ theme_override_font_sizes/font_size = 10
 step = 1.0
 value = 100.0
 
-[node name="Player" type="Sprite2D" parent="."]
+[node name="Red Genie" type="AnimatedSprite2D" parent="Enemy"]
+unique_name_in_owner = true
+visible = false
+sprite_frames = SubResource("SpriteFrames_cescb")
+autoplay = "default"
+frame_progress = 0.106381
+
+[node name="Blue Genie" type="AnimatedSprite2D" parent="Enemy"]
+unique_name_in_owner = true
+visible = false
+position = Vector2(-0.346884, 2.0813)
+scale = Vector2(0.683605, 0.683605)
+sprite_frames = SubResource("SpriteFrames_ays4h")
+autoplay = "default"
+frame_progress = 0.454036
+
+[node name="Green Genie" type="AnimatedSprite2D" parent="Enemy"]
+unique_name_in_owner = true
+visible = false
+sprite_frames = SubResource("SpriteFrames_suhrc")
+autoplay = "default"
+frame_progress = 0.369092
+
+[node name="Pig Demon" type="AnimatedSprite2D" parent="Enemy"]
+unique_name_in_owner = true
+visible = false
+position = Vector2(0, -31.2195)
+sprite_frames = SubResource("SpriteFrames_p7wgy")
+autoplay = "default"
+frame_progress = 0.673611
+
+[node name="Snake Demon" type="AnimatedSprite2D" parent="Enemy"]
+unique_name_in_owner = true
+visible = false
+position = Vector2(-0.346884, -31.5664)
+sprite_frames = SubResource("SpriteFrames_vu8ym")
+
+[node name="Player" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 position = Vector2(960, 301)
 scale = Vector2(3.14063, 3.14063)
-texture = ExtResource("4_lw4v3")
+sprite_frames = SubResource("SpriteFrames_86x0m")
+autoplay = "default"
+frame_progress = 0.0949568
 flip_h = true
 
 [node name="PlayerHealth" type="ProgressBar" parent="Player"]
@@ -133,6 +363,7 @@ offset_top = 16.0
 offset_right = 276.0
 offset_bottom = 292.0
 texture = ExtResource("6_jrf6m")
+expand_mode = 4
 stretch_mode = 5
 
 [node name="Stage" type="Label" parent="."]
